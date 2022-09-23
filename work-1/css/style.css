@@ -4,6 +4,8 @@ body {
   height: 1763px;
   background: #F5F5F5;
   font-family: 'Inter', sans-serif;
+  display: flex;
+  margin: 0 auto;
 }
 
 .wrapper {
@@ -43,6 +45,10 @@ p {
   font-weight: 700;
 }
 
+.links {
+  font-style: italic;
+}
+
 .editional {
   font-weight: 700;
 }
@@ -53,4 +59,8 @@ ol {
 
 li {
   font-size: 12px;
+}
+
+a {
+  color: #000AFF;
 }
