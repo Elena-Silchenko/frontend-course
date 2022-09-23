@@ -46,3 +46,11 @@ p {
 .editional {
   font-weight: 700;
 }
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  font-size: 12px;
+}
