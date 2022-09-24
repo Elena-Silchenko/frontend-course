@@ -13,15 +13,7 @@ body {
   background-color: #fff;
 }
 
-h1 {
-  font-weight: 700;
-}
-
-h2 {
-  font-weight: 700;
-}
-
-h3 {
+h1, h2, h3 {
   font-weight: 700;
 }
 
@@ -33,20 +25,12 @@ p {
   font-weight: 700;
 }
 
-.education {
-  font-style: italic;
-}
-
-.supercomputing {
+.italic {
   font-style: italic;
 }
 
 .supercomputing1 {
   font-weight: 700;
-}
-
-.links {
-  font-style: italic;
 }
 
 .editional {
