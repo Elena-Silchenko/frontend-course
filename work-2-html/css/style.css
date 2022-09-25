@@ -1,0 +1,14 @@
+body {
+  position: relative;
+  width: 1000px;
+  height: 1763px;
+  background: #F5F5F5;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding: 18px 23px 0px 25px;
+  background-color: #fff;
+}
