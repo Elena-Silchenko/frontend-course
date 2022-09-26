@@ -5,7 +5,6 @@ body {
 
 .wrapper {
   width: 916px;
-  padding: 18px 23px 0px 25px;
   margin: 0 auto;
   background-color: #fff;
 }
@@ -49,3 +48,15 @@ p {
   text-align: center;
 }
 
+.footer {
+  position: relative;
+}
+
+.footer-link {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  top: -38px;
+  right: 23px;
+  text-decoration: none;
+}
