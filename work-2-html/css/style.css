@@ -27,6 +27,10 @@ h2 {
   margin: 0;
 }
 
+a {
+  color: #0029FF;
+}
+
 p {
   font-size: 16px;
 }
