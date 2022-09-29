@@ -1,12 +1,7 @@
-body {
-  background: #F5F5F5;
-  font-family: 'Inter', sans-serif;
-}
-
 .wrapper {
   width: 916px;
   margin: 0 auto;
-  background-color: #fff;
+  background: #fff;
 }
 
 .title {
