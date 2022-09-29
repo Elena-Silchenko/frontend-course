@@ -10,6 +10,7 @@ import Uranium from './Uranium'
 import Neptune from './Neptune'
 
 import Additional from './Additional'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -23,9 +24,10 @@ function App() {
         <Saturn />
         <Uranium />
         <Neptune />
-
         <Additional />
       </div>
+
+      <Footer />
     </div>
   )
 }

@@ -35,8 +35,9 @@ p {
   font-size: 16px;
 }
 
-.align-center {
-  text-align: center;
+.venus {
+  width: 400px;
+  height: 400px;
 }
 
 .align-left {
@@ -47,8 +48,19 @@ p {
   text-align: right;
 }
 
-.venus {
-  width: 400px;
-  height: 400px;
+.align-center {
+  text-align: center;
 }
 
+.footer {
+  position: relative;
+}
+
+.footer-link {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  bottom: 34px;  
+  right: 23px;
+  text-decoration: none;
+}

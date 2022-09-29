@@ -1,4 +1,5 @@
 import Image from "./img.png"
+import ImageBlazon from "./герб.png"
 
 export default function Additional() {
   return (
@@ -18,6 +19,14 @@ export default function Additional() {
         Успіху у навчанні і мирного неба!<br/>
         Все буде Україна
       </p>
+
+      <div className="align-center">
+        <img 
+          src={ImageBlazon} 
+          alt="герб" 
+          style={{ marginTop: "-57px", marginLeft: "-59px" }}
+        />
+      </div>
     </div>
   )
 }
