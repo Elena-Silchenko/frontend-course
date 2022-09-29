@@ -1,0 +1,44 @@
+body {
+  background: #F5F5F5;
+  font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+  width: 916px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 32px;
+  margin: 0;
+}
+
+a {
+  color: #0029FF;
+}
+
+p {
+  font-size: 16px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
