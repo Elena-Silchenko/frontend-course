@@ -1,4 +1,4 @@
-import imageMercury from './меркурій.png'
+import ImageMercury from './меркурій.png'
 
 export default function Mercury() {
   return (
@@ -7,7 +7,7 @@ export default function Mercury() {
       <h1>ПЛАНЕТИ СОНЯЧНОЇ СИСТЕМИ</h1>
       <div className="align-center">
         <img 
-          src={imageMercury} 
+          src={ImageMercury} 
           alt="меркурій" 
           style={{ marginTop: '55px' }}
         />

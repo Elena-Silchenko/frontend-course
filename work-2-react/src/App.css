@@ -42,3 +42,13 @@ p {
 .align-left {
   text-align: left;
 }
+
+.align-right {
+  text-align: right;
+}
+
+.venus {
+  width: 400px;
+  height: 400px;
+}
+
