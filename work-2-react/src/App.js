@@ -9,6 +9,8 @@ import Saturn from './Saturn'
 import Uranium from './Uranium'
 import Neptune from './Neptune'
 
+import Additional from './Additional'
+
 function App() {
   return (
     <div className="wrapper">
@@ -21,6 +23,8 @@ function App() {
         <Saturn />
         <Uranium />
         <Neptune />
+
+        <Additional />
       </div>
     </div>
   )
