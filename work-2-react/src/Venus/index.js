@@ -1,4 +1,4 @@
-import ImageVenus from './венера.png'
+import ImageVenus from "./венера.png"
 
 export default function Venus() {
   return (
@@ -8,7 +8,7 @@ export default function Venus() {
           src={ImageVenus} 
           alt="венера" 
           className="venus" 
-          style={{ marginTop: '62px' }}
+          style={{ marginTop: "62px" }}
         />
       </div>
       <h2 className="align-right">Венера</h2>

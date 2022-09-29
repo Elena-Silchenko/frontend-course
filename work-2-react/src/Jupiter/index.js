@@ -1,4 +1,4 @@
-import ImageJupiter from './юпітер.png'
+import ImageJupiter from "./юпітер.png"
 
 export default function Jupiter() {
   return (

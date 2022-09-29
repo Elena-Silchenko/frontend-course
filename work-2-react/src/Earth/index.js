@@ -1,4 +1,4 @@
-import ImageEarth from './земля.png'
+import ImageEarth from "./земля.png"
 
 export default function Earth() {
   return (
@@ -7,7 +7,7 @@ export default function Earth() {
         <img 
           src={ImageEarth} 
           alt="земля" 
-          style={{ marginTop: '46px' }}
+          style={{ marginTop: "46px" }}
         />
       </div>
       <h2 className="align-center">Земля</h2>

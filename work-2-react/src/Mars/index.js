@@ -1,4 +1,4 @@
-import ImageMars from './марс.png'
+import ImageMars from "./марс.png"
 
 export default function Mars() {
   return (
@@ -7,7 +7,7 @@ export default function Mars() {
         <img 
           src={ImageMars} 
           alt="марс" 
-          style={{ marginTop: '31px' }}
+          style={{ marginTop: "31px" }}
         />
       </div>
       <h2 className="align-left">Марс</h2>

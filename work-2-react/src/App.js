@@ -5,6 +5,7 @@ import Venus from './Venus'
 import Earth from './Earth'
 import Mars from './Mars'
 import Jupiter from './Jupiter'
+import Saturn from './Saturn'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Earth />
         <Mars />
         <Jupiter />
+        <Saturn />
       </div>
     </div>
   )
