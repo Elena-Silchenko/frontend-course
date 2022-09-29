@@ -3,6 +3,7 @@ import './App.css'
 import Mercury from './Mercury'
 import Venus from './Venus'
 import Earth from './Earth'
+import Mars from './Mars'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Mercury />
         <Venus />
         <Earth />
+        <Mars />
       </div>
     </div>
   )
