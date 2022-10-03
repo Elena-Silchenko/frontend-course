@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  width: 1440px;
   font-family: 'Inika', serif;
 }
 
@@ -28,15 +27,22 @@ a {
 .header-bkg-image {
   background-image: url("../image/фонове\ зображення.png");
   background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: calc(0.5311 * 100vw);
+  display: flex;
 }
 
-.header-image {
+.container {
+  margin: auto;
   display: flex;
-  padding: 240px 279px 279px 80px;
 }
 
 .img-flag {
+  width: 23px;
   margin-right: 25px;
+  height: calc(100% - 26px);
+  margin-top: 13px;
 }
 
 p {
