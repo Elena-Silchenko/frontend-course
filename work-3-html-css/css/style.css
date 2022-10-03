@@ -1,4 +1,49 @@
 body {
   margin: 0;
+  width: 1440px;
   font-family: 'Inika', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'M PLUS 1', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  padding: 30px;
+}
+
+.logo-blue {
+  color: #3E45E8;
+}
+
+.logo-yellow {
+  color: #E8C23E;
+}
+
+.header-bkg-image {
+  background-image: url("../image/фонове\ зображення.png");
+  background-repeat: no-repeat;
+}
+
+.header-image {
+  display: flex;
+  padding: 240px 279px 279px 80px;
+}
+
+.img-flag {
+  margin-right: 25px;
+}
+
+p {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0;
+  line-height: 75.5px;
 }
