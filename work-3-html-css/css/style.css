@@ -133,3 +133,33 @@ p {
 .card-image {
   width: 392.2px;
 }
+
+.main-container2-header {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.main-container2 {
+  margin: auto;
+}
+
+.main-container2-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.main-container2-border {
+  border-bottom: 7px solid #1400FF;
+  width: 592px;
+}
+
+.container-image {
+  display: flex;
+}
+
+.main-container2-image {
+  margin: auto;
+}
