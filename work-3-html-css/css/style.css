@@ -76,7 +76,7 @@ p {
     rgba(62 69 232),
     rgb(232 194 62), 
     #e8c23e14);  
-  border-image-slice: 1;
+    border-image-slice: 1;
   width: 100%;
 }
 
