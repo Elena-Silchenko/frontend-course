@@ -183,3 +183,16 @@ button {
   color: #fff;
   cursor: pointer;
 }
+
+.footer {
+  height: 233px;
+  background-image: linear-gradient(#013235, #0D0661);
+}
+
+.links {
+  display: grid;
+  text-align: center;
+  color: #A89D9D;
+  font-family: 'Marcellus SC', serif;
+  font-size: 36px;
+}
