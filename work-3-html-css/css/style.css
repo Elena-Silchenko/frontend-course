@@ -158,8 +158,28 @@ p {
 
 .container-image {
   display: flex;
+  margin-bottom: 23px;
 }
 
 .main-container2-image {
   margin: auto;
+}
+
+.container-button {
+  display: flex;
+  margin-bottom: 36px;
+}
+
+button {
+  margin: auto;
+  width: 499px;
+  height: 81px;
+  background-color: #2A61F0;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
 }
