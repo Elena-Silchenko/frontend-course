@@ -3,11 +3,21 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+h2 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
-  margin-bottom: 10px;
+  padding: 48px 80px 10px;
+  margin: 0;
+}
+
+h3 {
+  padding: 10px 10px;
+  margin: 0;
+  color: #0072DB;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37.75px;
 }
 
 a {
@@ -61,9 +71,9 @@ p {
   margin-top: 13px;
 }
 
-.main-content {
+/* .main-content {
   padding: 48px 80px;
-}
+} */
 
 .main-content-border {
   /* border-bottom: 5px solid #3E45E8; */
@@ -71,8 +81,8 @@ p {
   position: relative;
   border-bottom: 10px solid transparent;
   border-image: linear-gradient(
-    0.25turn, 
-    rgb(0 209 255 / 46%), 
+    21.25turn, 
+    rgb(0 209 255 / 70%), 
     rgba(62 69 232),
     rgb(232 194 62), 
     #e8c23e14);  
@@ -88,3 +98,38 @@ p {
   border-bottom: 5px solid #E8C23E;
   width: calc(100% - 337px);
 } */
+
+.cards {
+  padding: 45px 80px;
+  display: flex;
+}
+
+.card {
+  border: 5px solid #0D095F;
+  width: 391.2px;
+  height: 481px;
+  margin: auto;
+  border-radius: 35px;
+}
+
+.card1 {
+  box-shadow: -20px 15px 30px rgb(0 209 255 / 35%);}
+
+.card2 {
+  box-shadow: rgb(0 209 255 / 35%) 1px 18px 30px;}
+
+.card3 {
+  box-shadow: 20px 15px 30px rgb(0 209 255 / 35%);
+}
+
+.card-text {
+  padding: 10px 55px 10px 10px;
+  color: #FF9900;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 31.46px;
+}
+
+.card-image {
+  width: 392.2px;
+}
