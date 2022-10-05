@@ -1,5 +1,3 @@
-import ImageFlag from "./img прапор.png"
-
 export default function Header() {
   return (
     <div>
@@ -12,13 +10,7 @@ export default function Header() {
         </div>
         <div className="header-bkg-image">
           <div className="container">
-            <div>
-              <img 
-                className="img-flag" 
-                src={ImageFlag} 
-                alt="прапор" 
-              />
-            </div>
+            <div className="flag"></div>
 
             <div>
               <p>МІЙ СОНЯЧНИЙ ДІМ - ЦЕ МОЯ УКРАЇНА!<br/>

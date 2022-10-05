@@ -43,9 +43,24 @@ p {
   display: flex;
 }
 
-.img-flag {
+/* .img-flag {
   width: 23px;
   margin-right: 25px;
   height: calc(100% - 26px);
   margin-top: 13px;
+} */
+
+.flag {
+  border-left: 23px solid transparent;
+  position: relative;
+  max-width: 23px;
+  width: 100%;
+  border-image: linear-gradient( 
+    0.5turn, 
+    rgb(0 209 255), 
+    rgba(62 69 232), 
+    rgb(232 194 62), 
+    #e8c23e);  
+  border-image-slice: 1;
+  margin-right: 22px;
 }
