@@ -1,0 +1,51 @@
+a {
+  text-decoration: none !important;
+  color: #A89D9D !important;
+}
+
+p {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0;
+  line-height: 75.5px;
+}
+
+.logo {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'M PLUS 1', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  padding: 30px;
+}
+
+.logo-blue {
+  color: #3E45E8;
+}
+
+.logo-yellow {
+  color: #E8C23E;
+}
+
+.header-bkg-image {
+  background-image: url("./Header/фонове\ зображення.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: calc(0.5311 * 100vw);
+  display: flex;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+}
+
+.img-flag {
+  width: 23px;
+  margin-right: 25px;
+  height: calc(100% - 26px);
+  margin-top: 13px;
+}

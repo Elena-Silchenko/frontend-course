@@ -1,12 +1,11 @@
 import './App.css'
 
+import Header from './Header'
+
 function App() {
   return (
     <div>
-      <h1>test</h1>
-      <div>
-        <i className="fa-solid fa-tree"></i>
-      </div>
+      <Header />
     </div>
   )
 }
