@@ -4,8 +4,7 @@ export default function Header() {
       <div>
         <div className="logo">
           <a href="">
-            <span className="logo-blue">Strong</span>
-            <span className="logo-yellow">Ukraine</span>
+            <span className="logo-blue">Strong</span> <span className="logo-yellow">Ukraine</span>
           </a>
         </div>
         <div className="header-bkg-image">
