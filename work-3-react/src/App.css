@@ -95,7 +95,7 @@ p {
 .card {
   border: 5px solid #0D095F !important;
   width: 391.2px;
-  height: 481px;
+  height: 481px !important;
   margin: auto;
   border-radius: 35px !important;
 }
@@ -108,6 +108,10 @@ p {
 
 .card3 {
   box-shadow: 20px 15px 30px rgb(0 209 255 / 35%);
+}
+
+.card-img {
+  width: calc(100% + 1px) !important;
 }
 
 .card-title {
@@ -126,4 +130,5 @@ p {
   font-size: 20px;
   line-height: 31.46px;
 }
+
 
