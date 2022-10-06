@@ -131,4 +131,53 @@ p {
   line-height: 31.46px;
 }
 
+.main-container2-header {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.main-container2 {
+  margin: auto;
+}
+
+.main-container2-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.main-container2-border {
+  border-bottom: 7px solid #1400FF;
+  width: 592px;
+}
+
+.container-image {
+  display: flex;
+  margin-bottom: 23px;
+}
+
+.main-container2-image {
+  margin: auto;
+}
+
+.container-button {
+  display: flex;
+  margin-bottom: 36px;
+}
+
+.btn-primary {
+  margin: auto;
+  padding: 0 !important;
+  width: 499px;
+  height: 81px;
+  border-radius: 50px !important;
+  font-weight: 700 !important;
+  font-size: 64px !important;
+  text-transform: uppercase;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+}
 
