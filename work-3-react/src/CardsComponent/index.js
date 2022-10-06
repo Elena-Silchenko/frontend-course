@@ -42,7 +42,7 @@ export default function CardsComponent() {
 
   return (
     <div>
-      <div className="main-content">
+      <div>
         <div>
           <h2>Неймовірні місця України</h2>
           <div className="main-content-border"></div>
