@@ -20,6 +20,11 @@ p {
   line-height: 75.5px;
 }
 
+i {
+  color: #A89D9D;
+  font-size: 32px;
+}
+
 .logo {
   text-align: center;
   text-transform: uppercase;
@@ -179,5 +184,26 @@ p {
   align-items: center !important;
   justify-content: center !important;
   display: flex !important;
+}
+
+.footer {
+  height: 233px;
+  background-image: linear-gradient(#013235, #0D0661);
+}
+
+.links {
+  display: grid;
+  text-align: center;
+  font-family: 'Marcellus SC', serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.footer-icons {
+  text-align: center;
+}
+
+.footer-icons > a:not(:last-child) {
+  margin-right: 28px;
 }
 

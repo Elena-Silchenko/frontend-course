@@ -6,7 +6,7 @@ import Image3 from "./1200px-Городище_літописного_міста.
 
 function CardItem({ index, url, image, title, text }) {
   return (
-    <Card key={index} className={`card${index+1}`}>
+    <Card className={`card${index+1}`}>
       <a target="_blank" href={url}>
         <Card.Img src={image} />
         <Card.Body>
@@ -50,7 +50,7 @@ export default function CardsComponent() {
         <div className="cards">
           {
             cards.map((card, index) => (
-              <CardItem index={index} url={card.url} image={card.image} title={card.title} text={card.text} />
+              <CardItem key={index} index={index} url={card.url} image={card.image} title={card.title} text={card.text} />
             ))
           }
         </div>
