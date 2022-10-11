@@ -11,6 +11,11 @@ h1 {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 i {
   color: #fff;
   font-size: 32px;
