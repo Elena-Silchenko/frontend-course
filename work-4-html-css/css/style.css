@@ -34,6 +34,7 @@ h1 {
 .cards {
   display: flex;
   justify-content: center;
+  margin-bottom: 42px;
 }
 
 .card {
@@ -53,4 +54,10 @@ h1 {
 
 .card-title {
   margin-bottom: 105px;
+}
+
+.main-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
