@@ -3,6 +3,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 32px 112px;
+  margin: 0;
+}
+
 .wrapper {
   width: 1500px;
   margin: 0 auto;
@@ -21,4 +29,28 @@ body {
 
 .header-img > img {
   margin: 144px auto 350px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #231B0C;
+  width: 400px;
+  height: 460px;
+}
+
+.card:not(:last-child) {
+  margin-right: 38px;
+}
+
+.align-center {
+  text-align: center;
+  padding: 15px 50px;
+}
+
+.card-title {
+  margin-bottom: 105px;
 }
