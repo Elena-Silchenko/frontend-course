@@ -11,6 +11,11 @@ h1 {
   margin: 0;
 }
 
+i {
+  color: #fff;
+  font-size: 32px;
+}
+
 .wrapper {
   width: 1500px;
   margin: 0 auto;
@@ -92,4 +97,12 @@ h1 {
   width: 318px;
   margin: auto;
   margin-bottom: 20px;
+}
+
+.footer-icons {
+  text-align: center;
+}
+
+.footer-icons > a:not(:last-child) {
+  margin-right: 32px;
 }
