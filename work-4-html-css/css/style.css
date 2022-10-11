@@ -61,3 +61,32 @@ h1 {
   justify-content: center;
   margin-bottom: 40px;
 }
+
+.footer {
+  background-color: #150F02;
+  height: 279px;
+  margin-bottom: 12px;
+}
+
+.footer-img {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 39px;
+}
+
+.margin-bottom {
+  margin-bottom: 27px;
+}
+
+.footer-contacts {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.footer-border {
+  
+}
