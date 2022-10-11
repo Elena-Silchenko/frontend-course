@@ -2,3 +2,23 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
+
+.wrapper {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.header-bkg {
+  background-image: url("../img/фон.png");
+  background-repeat: no-repeat;
+  background-size:100%;
+  height: 700px;
+}
+
+.header-img {
+  display: flex;
+}
+
+.header-img > img {
+  margin: 144px auto 350px;
+}
