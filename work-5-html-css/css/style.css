@@ -207,3 +207,8 @@ select:focus-visible {
   padding: 16px;
   margin-bottom: 47px;
 }
+
+.personal-info-card {
+  background: linear-gradient(180deg, #859EFF, #69FFD280);
+  height: 498px;
+}
