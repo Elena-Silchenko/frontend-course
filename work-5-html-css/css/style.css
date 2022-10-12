@@ -193,3 +193,17 @@ select:focus-visible {
   cursor: pointer;
 }
 
+.personal-info {
+  background: linear-gradient(90deg, #FFE601, #55D6FF);
+  height: 85px;
+}
+
+.personal-info-title {
+  color: #202846;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 44px;
+  margin: 0;
+  padding: 16px;
+  margin-bottom: 47px;
+}
