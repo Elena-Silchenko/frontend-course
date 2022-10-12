@@ -25,19 +25,9 @@ li:not(:last-child) {
   margin-right: 65px;
 }
 
-button {
-  position: absolute;
-  background-color: #243B93;
+i {
   color: #fff;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  font-weight: 400;
-  font-size: 24px;
-  width: 210px;
-  height: 46px;
-  bottom: 11px;
-  right: -33px;
+  font-size: 46px;
 }
 
 .container {
@@ -143,6 +133,10 @@ select:focus-visible {
   position: relative;
 }
 
+.card:hover {
+  box-shadow: #2cbdeba1 0px 0px 70px 5px;
+}
+
 .card-img {
   margin-right: 30px;
   display: flex;
@@ -193,6 +187,25 @@ select:focus-visible {
   cursor: pointer;
 }
 
+.card-star:hover > svg {
+  fill: #FFF500;
+}
+
+.card-btn {
+  position: absolute;
+  background-color: #243B93;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 24px;
+  width: 210px;
+  height: 46px;
+  bottom: 11px;
+  right: -33px;
+}
+
 .personal-info {
   background: linear-gradient(90deg, #FFE601, #55D6FF);
   height: 85px;
@@ -211,4 +224,18 @@ select:focus-visible {
 .personal-info-card {
   background: linear-gradient(180deg, #859EFF, #69FFD280);
   height: 498px;
+}
+
+.icon-user {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.icon-user > i {
+  color: #000;
+  margin: auto;
 }
