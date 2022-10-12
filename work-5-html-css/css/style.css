@@ -4,14 +4,58 @@ body {
   background: #FBE4FF;
 }
 
-/* .container {
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+li:not(:last-child) {
+  margin-right: 65px;
+}
+
+.container {
+  display: flex;
   width: 1354px;
   margin: 0 auto;
-} */
+}
 
 .menu {
   background-color: #243B93;
   height: 65px;
-  padding: 8px 299px;
+}
+
+.menu-wrapper {
+  justify-content: space-evenly;
+  padding: 8px;
+  align-items: center;
+  line-height: 100%;
+}
+
+.menu-language {
+  display: flex;
+  align-items: center;
+}
+
+.menu-language img {
+  margin-right: 9px;
+}
+
+.menu-language > div {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 28px;
 }
 
