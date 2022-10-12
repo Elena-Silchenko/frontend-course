@@ -25,6 +25,21 @@ li:not(:last-child) {
   margin-right: 65px;
 }
 
+button {
+  position: absolute;
+  background-color: #243B93;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 24px;
+  width: 210px;
+  height: 46px;
+  bottom: 11px;
+  right: -33px;
+}
+
 .container {
   display: flex;
   width: 1354px;
@@ -75,7 +90,8 @@ li:not(:last-child) {
 
 .selector {
   background: #fff;
-  margin-top: 26px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .custom-select {
@@ -113,5 +129,67 @@ select {
 select:focus-visible {
   border: none;
   outline: none;
+}
+
+.cards > div {
+  margin-bottom: 42px;
+}
+
+.card {
+  background: linear-gradient(82deg, #ADCBD4, #00AEE5);
+  width: 100%;
+  display: flex;
+  padding: 33px;
+  position: relative;
+}
+
+.card-img {
+  margin-right: 30px;
+  display: flex;
+}
+
+.card-img > img {
+  height: 250px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  color: #353C57;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 100%;
+  margin-bottom: 4px;
+}
+
+.card-border {
+  border-bottom: 3px solid #fff;
+  margin-bottom: 13px;
+}
+
+.card-text-wrapper {
+  background-color: #EDFBFF;
+  width: 739px;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.card-text {
+  color: #202846;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28.47px;
+}
+
+.card-star {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  cursor: pointer;
 }
 
