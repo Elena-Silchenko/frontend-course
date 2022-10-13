@@ -230,8 +230,65 @@ select:focus-visible {
   background: linear-gradient(180deg, #859EFF, #69FFD280);
   height: 498px;
   padding: 45px 81px;
+  box-sizing: border-box;
+  margin-bottom: 19px;
 }
 
 .personal-info-avatar {
   margin-right: 127px;
+}
+
+.avatar-img {
+  margin-bottom: 35px;
+}
+
+.wrapper-btn {
+  margin-bottom: 26px;
+}
+
+.change-avatar-btn {
+  background-color: #243B93;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 24px;
+  width: 250px;
+  height: 50px;
+}
+
+.info-about {
+  color: #353C57;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.personal-info-border {
+  border-bottom: 3px solid #fff;
+  margin-bottom: 20px;
+}
+
+.additional-info {
+  font-weight: 400;
+}
+
+.info-exit-wrapper {
+  display: flex;
+}
+
+.info-exit-btn {
+  margin: auto;
+  background-color: #243B93;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  width: 174px;
+  height: 50px;
 }
