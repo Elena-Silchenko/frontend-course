@@ -37,6 +37,7 @@ i {
 }
 
 .menu {
+  position: relative;
   background-color: #243B93;
   height: 65px;
 }
@@ -376,4 +377,23 @@ select:focus-visible {
 
 .footer-text > div:not(:last-child) {
   margin-right: 15px;
+}
+
+.btn-go-up {
+  position: fixed;
+  cursor: pointer;
+  right: 4px;
+  bottom: 20px;
+}
+
+.circle {
+  background-color: #300C6A4D;
+  border-radius: 50%;
+  width: 101px;
+  height: 101px;
+  display: flex;
+}
+
+.circle > i {
+  margin: auto;
 }
