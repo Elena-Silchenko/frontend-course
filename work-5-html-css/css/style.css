@@ -207,6 +207,10 @@ select:focus-visible {
   right: -33px;
 }
 
+.card-btn:hover {
+  background-color: #EF075B;
+}
+
 .personal-info {
   background: linear-gradient(90deg, #FFE601, #55D6FF);
   height: 85px;
