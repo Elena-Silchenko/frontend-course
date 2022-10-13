@@ -329,10 +329,12 @@ select:focus-visible {
 .contact-text-title {
   font-weight: 400;
   font-size: 32px;
+  margin-bottom: 5px;
 }
 
 .contact-border {
   border-bottom: 3px solid #202846;
+  margin-bottom: 5px;
 }
 
 .contact-text {
@@ -342,6 +344,10 @@ select:focus-visible {
 
 .contact-wrapper {
   margin-right: 56px;
+}
+
+.contacts-tel {
+  margin-bottom: 16px;
 }
 
 .contact-wrapper-2 {
