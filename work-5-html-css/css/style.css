@@ -355,3 +355,19 @@ select:focus-visible {
   width: 499px;
   height: 290px;
 }
+
+.footer {
+  background-color: #243B93;
+  height: 65px;
+}
+
+.footer-text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 23px;
+}
+
+.footer-text > div:not(:last-child) {
+  margin-right: 15px;
+}
