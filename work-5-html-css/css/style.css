@@ -260,6 +260,10 @@ select:focus-visible {
   height: 50px;
 }
 
+.change-avatar-btn:hover {
+  background-color: #EF075B;
+}
+
 .info-about {
   color: #353C57;
   font-weight: 700;
@@ -295,4 +299,8 @@ select:focus-visible {
   width: 174px;
   height: 50px;
   margin-bottom: 56px;
+}
+
+.info-exit-btn:hover {
+  background-color: #EF075B;
 }
