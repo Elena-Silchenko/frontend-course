@@ -306,9 +306,14 @@ select:focus-visible {
   background-color: #EF075B;
 }
 
+.contacts-container {
+  margin-bottom: 28px;
+}
+
 .contacts {
   background: linear-gradient(135deg, #54D6FF, #FFE600);
   height: 85px;
+  margin-bottom: 25px;
 }
 
 .contacts-title {
@@ -319,4 +324,34 @@ select:focus-visible {
   margin: 0;
   padding: 16px;
   margin-bottom: 36px;
+}
+
+.contact-text-title {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.contact-border {
+  border-bottom: 3px solid #202846;
+}
+
+.contact-text {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.contact-wrapper {
+  margin-right: 56px;
+}
+
+.contact-wrapper-2 {
+  margin-right: 115px;
+}
+
+.map-wrapper {
+  border: 3px solid #243B93;
+  border-radius: 40px;
+  overflow: hidden;
+  width: 499px;
+  height: 290px;
 }
