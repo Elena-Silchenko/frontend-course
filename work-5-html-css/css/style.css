@@ -236,10 +236,12 @@ select:focus-visible {
 
 .personal-info-avatar {
   margin-right: 127px;
+  display: inline-block;
 }
 
 .avatar-img {
   margin-bottom: 35px;
+  text-align: center;
 }
 
 .wrapper-btn {
@@ -269,6 +271,7 @@ select:focus-visible {
 .personal-info-border {
   border-bottom: 3px solid #fff;
   margin-bottom: 20px;
+  width: 712px;
 }
 
 .additional-info {
@@ -291,4 +294,5 @@ select:focus-visible {
   text-transform: uppercase;
   width: 174px;
   height: 50px;
+  margin-bottom: 56px;
 }
