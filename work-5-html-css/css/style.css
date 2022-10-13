@@ -214,6 +214,7 @@ select:focus-visible {
 .personal-info {
   background: linear-gradient(90deg, #FFE601, #55D6FF);
   height: 85px;
+  margin-bottom: 36px;
 }
 
 .personal-info-title {
@@ -303,4 +304,19 @@ select:focus-visible {
 
 .info-exit-btn:hover {
   background-color: #EF075B;
+}
+
+.contacts {
+  background: linear-gradient(135deg, #54D6FF, #FFE600);
+  height: 85px;
+}
+
+.contacts-title {
+  color: #243B93;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 44px;
+  margin: 0;
+  padding: 16px;
+  margin-bottom: 36px;
 }
