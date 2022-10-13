@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'PT Sans', sans-serif;
@@ -37,9 +41,11 @@ i {
 }
 
 .menu {
-  position: relative;
   background-color: #243B93;
   height: 65px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .menu-wrapper {
