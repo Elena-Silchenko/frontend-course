@@ -224,18 +224,9 @@ select:focus-visible {
 .personal-info-card {
   background: linear-gradient(180deg, #859EFF, #69FFD280);
   height: 498px;
+  padding: 45px 81px;
 }
 
-.icon-user {
-  background: #fff;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.icon-user > i {
-  color: #000;
-  margin: auto;
+.personal-info-avatar {
+  margin-right: 127px;
 }
