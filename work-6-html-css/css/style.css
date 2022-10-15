@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Inter;
+  src: url('../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf');
+} 
+
+@font-face {
+  font-family: Poppins;
+  src: url('../fonts/Poppins/Poppins-Regular.ttf');
+} 
+
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/Roboto/Roboto-Black.ttf');
+} 
+
+@font-face {
+  font-family: Work_Sans;
+  src: url('../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf');
+}
+
+body {
+  font-family: Inter, sans-serif;
+  margin: 0;
+  background: #212529;
+}
