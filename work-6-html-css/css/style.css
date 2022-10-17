@@ -29,6 +29,7 @@ body {
 header {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 108px;
 }
 
 ul {
@@ -71,4 +72,40 @@ a {
   font-weight: 700;
   font-size: 18px;
 }
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 137px;
+}
+
+.info-section > div {
+  font-family: Inter;
+}
+
+.info-section-1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 50.75px;
+}
+
+.info-section-1 > span {
+  text-decoration: underline;
+  color: #FFB742;
+}
+
+.info-section-2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 90.85px;
+  margin-bottom: 25px;
+}
+
+.info-section-3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 50.75px;
+}
+
 
