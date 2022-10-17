@@ -119,6 +119,7 @@ a {
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 221px;
 }
 
 .card {
@@ -152,4 +153,12 @@ a {
 
 .card-subtitle {
   font-size: 16px;
+}
+
+.about {
+  display: flex;
+}
+
+.about-img {
+  margin-right: 74px;
 }
