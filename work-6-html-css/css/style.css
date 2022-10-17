@@ -45,6 +45,15 @@ li:not(:last-child) {
   margin-right: 25px;
 }
 
+li > a:hover {
+  color: #FFB742;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .d-flex {
   display: flex;
 }
