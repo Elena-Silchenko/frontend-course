@@ -18,11 +18,21 @@
   src: url('../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf');
 }
 
+html {
+  --color-main-bkg: #212529;
+  --color-text: #fff;
+  --color-text-2: #FFB742;
+  --color-text-3: #212529;
+  --color-text-hover: #FFB742;
+  --color-buttons: #FFB742;
+  --color-card-bkg: #292B2E;
+}
+
 body {
   font-family: Inter, sans-serif;
   margin: 0;
-  background: #212529;
-  color: #fff;
+  background: var(--color-main-bkg);
+  color: var(--color-text);
   padding: 8px 50px;
 }
 
@@ -47,12 +57,12 @@ li:not(:last-child) {
 }
 
 li > a:hover {
-  color: #FFB742;
+  color: var(--color-text-hover);
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: var(--color-text);
 }
 
 .d-flex {
@@ -61,8 +71,8 @@ a {
 
 .header-btn {
   margin: auto;
-  background-color: #FFB742;
-  color: #212529;
+  background-color: var(--color-buttons);
+  color: var(--color-text-3);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -92,7 +102,7 @@ a {
 
 .info-section-1 > span {
   text-decoration: underline;
-  color: #FFB742;
+  color: var(--color-text-2);
 }
 
 .info-section-2 {
@@ -108,4 +118,8 @@ a {
   line-height: 50.75px;
 }
 
-
+.card {
+  display: flex;
+  width: 30%;
+  background-color: var(--color-card-bkg);
+}
