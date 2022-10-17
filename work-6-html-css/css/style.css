@@ -90,10 +90,6 @@ a {
   margin-bottom: 137px;
 }
 
-.info-section > div {
-  font-family: Inter;
-}
-
 .info-section-1 {
   font-weight: 700;
   font-size: 32px;
@@ -118,8 +114,42 @@ a {
   line-height: 50.75px;
 }
 
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .card {
   display: flex;
-  width: 30%;
+  width: 31.5%;
   background-color: var(--color-card-bkg);
+  justify-content: space-around;
+  align-items: center;
+  padding: 28px 0;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  transition: all 1.5s;
+}
+
+.card:hover {
+  background: linear-gradient(
+    94.3deg, #FFB742 0%, rgba(255, 123, 66, 0.76) 100%
+  );
+}
+
+.card:hover .card-title, .card:hover .card-subtitle {
+  color: var(--color-text-3);
+}
+
+.card-title {
+  font-size: 32px;
+  color: var(--color-text-2);
+}
+
+.card-subtitle {
+  font-size: 16px;
 }
