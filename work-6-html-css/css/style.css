@@ -251,3 +251,33 @@ a {
 .skills-bkg:not(:last-child) {
   margin-right: 16px;
 }
+
+.works-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.works-menu {
+  margin-bottom: 50px;
+}
+
+.works-menu > ul > li > a:hover {
+  background-color: var(--color-buttons);
+  color: var(--color-text-3);
+  padding: 5px 20px;
+  border-radius: 3px;
+}
+
+.porfolio-images {
+  display: flex;
+  margin-bottom: 135px;
+}
+
+.porfolio-set:not(:last-child) {
+  margin-right: 33px;
+}
+
+.portfolio-image:not(:last-child) {
+  margin-bottom: 32px;
+}
