@@ -165,7 +165,7 @@ a {
   margin-right: 74px;
 }
 
-.about-badge {
+.badge {
   background-color: var(--color-badge);
   color: var(--color-text-2);
   text-transform: uppercase;
@@ -183,6 +183,7 @@ a {
   font-family: Roboto;
   font-weight: 700;
   font-size: 48px;
+  text-transform: capitalize;
   margin-bottom: 29px;
 }
 
@@ -198,6 +199,7 @@ a {
 .about-btn {
   background-color: var(--color-buttons);
   color: var(--color-text-3);
+  text-transform: capitalize;
   border: none;
   border-radius: 50px;
   width: 147.57px;
