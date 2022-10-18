@@ -23,9 +23,11 @@ html {
   --color-text: #fff;
   --color-text-2: #FFB742;
   --color-text-3: #212529;
+  --color-text-4: #D4D4D4;
   --color-text-hover: #FFB742;
   --color-buttons: #FFB742;
   --color-card-bkg: #292B2E;
+  --color-badge: #FFFFFF14;
 }
 
 body {
@@ -161,4 +163,43 @@ a {
 
 .about-img {
   margin-right: 74px;
+}
+
+.about-badge {
+  background-color: var(--color-badge);
+  color: var(--color-text-2);
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  width: 148px;
+  height: 42px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.about-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.about-description {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-text-4);
+}
+
+.about-btn {
+  background-color: var(--color-buttons);
+  color: var(--color-text-3);
+  border: none;
+  border-radius: 50px;
+  width: 147.57px;
+  height: 54px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 18px;
 }
