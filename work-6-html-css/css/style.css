@@ -176,12 +176,14 @@ a {
   font-family: Poppins;
   font-weight: 600;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .about-title {
   font-family: Roboto;
   font-weight: 700;
   font-size: 48px;
+  margin-bottom: 29px;
 }
 
 .about-description {
@@ -190,6 +192,7 @@ a {
   font-size: 16px;
   line-height: 30px;
   color: var(--color-text-4);
+  margin-bottom: 54px;
 }
 
 .about-btn {
@@ -202,4 +205,5 @@ a {
   font-family: Poppins;
   font-weight: 700;
   font-size: 18px;
+  cursor: pointer;
 }
