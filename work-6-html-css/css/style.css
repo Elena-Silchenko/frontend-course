@@ -24,12 +24,15 @@ html {
   --color-text-2: #FFB742;
   --color-text-3: #212529;
   --color-text-4: #D4D4D4;
+  --color-text-5: #000;
   --color-text-hover: #FFB742;
   --color-buttons: #FFB742;
   --color-card-bkg: #292B2E;
   --color-badge: #FFFFFF14;
   --color-skills-bkg: #383E45;
   --color-skills-bkg-hover: #FFB74280;
+  --color-review-card: #fff;
+  --color-star: #FFB742;
 }
 
 body {
@@ -180,7 +183,7 @@ a {
   font-weight: 600;
   font-size: 20px;
   padding: 6px 25px;
-  margin-bottom: 11px;
+  margin-bottom: 20px;
 }
 
 .title {
@@ -280,4 +283,71 @@ a {
 
 .portfolio-image:not(:last-child) {
   margin-bottom: 32px;
+}
+
+.reviews-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews-title {
+  margin-bottom: 90px;
+}
+
+.review-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 253px;
+}
+
+.review-card {
+  background-color: var(--color-review-card);
+  width: 378.91px;
+  height: 455.11px;
+  border-radius: 7.93px;
+  padding: 50px 50px 50px 32px;
+  box-sizing: border-box;
+}
+
+.review-card-stars {
+  margin-bottom: 21px;
+}
+
+.review-card-stars > i {
+  color: var(--color-star);
+}
+
+.review-card-text {
+  color: var(--color-text-5);
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 37px;
+}
+
+.review-card-about {
+  display: flex;
+}
+
+.review-card-photo {
+  margin-right: 24px;
+}
+
+.review-card-name {
+  color: var(--color-text-5);
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.review-card-profession {
+  color: var(--color-text-5);
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
 }
