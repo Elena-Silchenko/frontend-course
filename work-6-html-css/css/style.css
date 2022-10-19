@@ -80,6 +80,7 @@ footer {
   padding: 148px 48px 89px 50px;
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .wrapper {
@@ -408,7 +409,7 @@ footer {
   text-transform: capitalize;
 }
 
-.footer-text {
+.footer-text a {
   color: var(--color-text-7);
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
