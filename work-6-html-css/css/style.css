@@ -262,6 +262,7 @@ footer {
   cursor: pointer;
   display: flex;
   transition: all 1.2s;
+  border: 1px solid transparent;
 }
 
 .skills-bkg:hover {
