@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  background: linear-gradient(90deg, #3E718E, #64969B);
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+form {
+  max-width: 1000px;
+  min-width: 375px;
+}
+
+.container {
+  padding: 9px 12px 30px 32px;
+}
