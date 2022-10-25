@@ -3,6 +3,10 @@ body {
   font-family: 'Space Grotesk', sans-serif;
 }
 
+h1 {
+  font-size: 20px;
+}
+
 .main-wrapper {
   background: linear-gradient(90deg, #3E718E, #64969B);
 }
@@ -13,7 +17,6 @@ body {
   padding: 30px;
 }
 
-
 .container {
   width: 1000px;
   height: 667px;
@@ -22,5 +25,5 @@ body {
 }
 
 .wrapper-left {
-  padding: 11px 0 32px;
+  padding: 12px 32px;
 }
