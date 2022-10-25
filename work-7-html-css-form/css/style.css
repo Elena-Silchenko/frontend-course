@@ -7,6 +7,51 @@ h1 {
   font-size: 20px;
 }
 
+label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+input {
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  color: #CCCCCC;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  width: 353px;
+  height: 25px;
+  padding: 4px 8px;
+  box-sizing: border-box;
+}
+
+select {
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  color: #CCCCCC;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  width: 353px;
+  height: 25px;
+  padding: 4px 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #284A5E;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  width: 355px;
+  height: 34px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
 .main-wrapper {
   background: linear-gradient(90deg, #3E718E, #64969B);
 }
@@ -26,4 +71,40 @@ h1 {
 
 .wrapper-left {
   padding: 12px 32px;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.password-field {
+  margin-bottom: 44px;
+}
+
+.location-field {
+  margin-bottom: 94px;
+}
+
+.location-field span {
+  font-weight: 400;
+  font-size: 12px;
+  color: #A8A8A8;
+}
+
+.login-field {
+  display: flex;
+}
+
+.old-user {
+  color: #C4C4C4;
+  margin-right: 8px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.old-user-login {
+  color: #476D73;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: underline;
 }
