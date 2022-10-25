@@ -53,6 +53,29 @@ button {
   margin-bottom: 12px;
 }
 
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+li:not(:last-child) {
+  margin-right: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .main-wrapper {
   background: linear-gradient(90deg, #3E718E, #64969B);
 }
@@ -126,4 +149,6 @@ button {
   background:linear-gradient(125deg,#517879, #214159);
   width: 45%;
   box-shadow: #4e7577 -10px 25px 29px;
+  padding: 8px 12px;
 }
+
