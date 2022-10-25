@@ -5,6 +5,7 @@ body {
 
 h1 {
   font-size: 20px;
+  text-align: center;
 }
 
 label {
@@ -67,10 +68,20 @@ button {
   height: 667px;
   background-color: #fff;
   margin: auto;
+  display: flex;
 }
 
 .wrapper-left {
   padding: 12px 32px;
+  width: 55%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.form-conteiner {
+  margin: auto;
 }
 
 .margin-bottom {
@@ -93,6 +104,7 @@ button {
 
 .login-field {
   display: flex;
+  justify-content: center;
 }
 
 .old-user {
@@ -107,4 +119,11 @@ button {
   font-weight: 700;
   font-size: 16px;
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.wrapper-right {
+  background:linear-gradient(125deg,#517879, #214159);
+  width: 45%;
+  box-shadow: #4e7577 -10px 25px 29px;
 }
