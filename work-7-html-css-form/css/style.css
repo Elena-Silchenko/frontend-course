@@ -152,3 +152,17 @@ a {
   padding: 8px 12px;
 }
 
+.quote-container {
+  color: #fff;
+  font-weight: 700;
+  padding: 165px 52px;
+}
+
+.quote {
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.quote-author {
+  font-size: 16px;
+}
