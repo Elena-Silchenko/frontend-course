@@ -128,6 +128,20 @@ a {
   margin-bottom: 44px;
 }
 
+.password-field > input {
+  margin-bottom: .3em;
+}
+
+.password-info {
+  color: #A8A8A8;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.password-info:not(:last-child) {
+  margin-bottom: .3em;
+}
+
 .location-field {
   margin-bottom: 94px;
 }
