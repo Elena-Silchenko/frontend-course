@@ -94,6 +94,12 @@ a {
   display: flex;
 }
 
+.bkg-img {
+  background-image: url(../img/bkg-img.svg);
+  background-repeat: no-repeat;
+  height: 620.81px;
+}
+
 .wrapper-left {
   padding: 12px 32px;
   width: 55%;
@@ -148,7 +154,7 @@ a {
 .wrapper-right {
   background:linear-gradient(125deg,#517879, #214159);
   width: 45%;
-  box-shadow: #4e7577 -10px 25px 29px;
+  box-shadow: #4e7577 -4px 1px 36px;
   padding: 8px 12px;
 }
 
