@@ -17,7 +17,6 @@ label {
 input {
   border: 1px solid #CCCCCC;
   border-radius: 4px;
-  color: #CCCCCC;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -27,10 +26,19 @@ input {
   box-sizing: border-box;
 }
 
+input::placeholder {
+  color: #CCCCCC;
+}
+
+input[type="password"] {
+  font: small-caption;
+  font-size: 28px;
+}
+
 select {
   border: 1px solid #CCCCCC;
   border-radius: 4px;
-  color: #CCCCCC;
+  background: #fff;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -94,15 +102,15 @@ a {
   display: flex;
 }
 
+.wrapper-left {
+  padding: 12px 32px;
+  width: 55%;
+}
+
 .bkg-img {
   background-image: url(../img/bkg-img.svg);
   background-repeat: no-repeat;
   height: 620.81px;
-}
-
-.wrapper-left {
-  padding: 12px 32px;
-  width: 55%;
 }
 
 .d-flex {
