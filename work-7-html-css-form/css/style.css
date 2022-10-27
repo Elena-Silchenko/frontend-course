@@ -1,3 +1,16 @@
+html {
+  --color-input-placeholder: #CCCCCC;
+  --color-select-bkg: #fff;
+  --color-btn-bkg: #284A5E;
+  --color-btn-text: #fff;
+  --color-links: #fff;
+  --color-bkg-left: #fff;
+  --color-text: #A8A8A8;
+  --color-text-2: #C4C4C4;
+  --color-text-3: #476D73;
+  --color-text-4: #fff;
+}
+
 body {
   margin: 0;
   font-family: 'Space Grotesk', sans-serif;
@@ -27,7 +40,7 @@ input {
 }
 
 input::placeholder {
-  color: #CCCCCC;
+  color: var(--color-input-placeholder);
 }
 
 input[type="password"] {
@@ -38,7 +51,7 @@ input[type="password"] {
 select {
   border: 1px solid #CCCCCC;
   border-radius: 4px;
-  background: #fff;
+  background: var(--color-select-bkg);
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -49,10 +62,10 @@ select {
 }
 
 button {
-  background-color: #284A5E;
+  background-color: var(--color-button-bkg);
   border: none;
   border-radius: 4px;
-  color: #fff;
+  color: var(--color-btn-text);
   cursor: pointer;
   width: 355px;
   height: 34px;
@@ -81,7 +94,7 @@ li:not(:last-child) {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: var(--color-links);
 }
 
 .main-wrapper {
@@ -96,7 +109,7 @@ a {
 .container {
   width: 1000px;
   height: 667px;
-  background-color: #fff;
+  background-color: var(--color-bkg-left);
   margin: auto;
   display: flex;
 }
@@ -133,7 +146,7 @@ a {
 }
 
 .password-info {
-  color: #A8A8A8;
+  color: var(--color-text);
   font-weight: 400;
   font-size: 10px;
 }
@@ -149,7 +162,7 @@ a {
 .location-field span {
   font-weight: 400;
   font-size: 12px;
-  color: #A8A8A8;
+  color: var(--color-text);
 }
 
 .login-field {
@@ -158,14 +171,14 @@ a {
 }
 
 .old-user {
-  color: #C4C4C4;
+  color: var(--color-text-2);
   margin-right: 8px;
   font-weight: 700;
   font-size: 16px;
 }
 
 .old-user-login {
-  color: #476D73;
+  color: var(--color-text-3);
   font-weight: 700;
   font-size: 16px;
   text-decoration: underline;
@@ -180,7 +193,7 @@ a {
 }
 
 .quote-container {
-  color: #fff;
+  color: var(--color-text-4);
   font-weight: 700;
   padding: 165px 52px;
 }
