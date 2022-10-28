@@ -44,3 +44,15 @@ li:not(:last-child) {
 .navbar {
   padding-right: 1.5em;
 }
+
+.gallery-wrapper {
+  min-height: 90vh;
+}
+
+.gallery-container {
+  display: flex;
+}
+
+.gallery-container > div {
+  width: 25%;
+}
