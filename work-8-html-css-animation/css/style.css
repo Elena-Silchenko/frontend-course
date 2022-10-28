@@ -1,4 +1,46 @@
+:root {
+  --color-header-bkg: #000;
+  --color-text: #FFFCFC;
+}
+
 body {
   margin: 0;
   font-family: 'Rosario', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+ul {
+  display: flex;
+  font-size: 26px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+li {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+li:not(:last-child) {
+  margin-right: 2em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 10vh;
+  background-color: var(--color-header-bkg);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  align-items: center;
+  line-height: 100%;
+}
+
+.navbar {
+  padding-right: 1.5em;
 }
