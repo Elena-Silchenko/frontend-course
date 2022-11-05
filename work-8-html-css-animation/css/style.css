@@ -384,3 +384,28 @@ header {
 .services-image-4 > img {
   animation: rotate-4 20s linear infinite;
 }
+
+.team-wrapper {
+  min-height: 90vh;
+  padding: 2em;
+}
+
+.team-title {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 96px;
+  text-align: center;
+  margin-bottom: .5em;
+}
+
+.team-container {
+  display: flex;
+}
+
+.team-container > div > img {
+  max-width: 100%;
+}
+
+.team-container > div:not(:last-child) {
+  margin-right: 1.5em;
+}
