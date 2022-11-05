@@ -151,6 +151,6 @@ header {
   margin-bottom: 1em;
 }
 
-.services-img-right {
-  min-width: 100%;
+.services-img-right > img {
+  max-width: 100%;
 }
