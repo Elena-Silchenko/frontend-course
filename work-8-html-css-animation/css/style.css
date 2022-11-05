@@ -69,13 +69,16 @@ li:not(:last-child) {
   margin-right: 2em;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   background-color: var(--color-header-bkg);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
   align-items: center;
   line-height: 100%;
 }
@@ -123,4 +126,31 @@ li:not(:last-child) {
 
 .gallery-img-3 {
   animation: gallery-2 1s linear;
+}
+
+.services-wrapper {
+  display: flex;
+  min-height: 90vh;
+}
+
+.services-img-container {
+  display: flex;
+  padding: 2em;
+}
+
+.services-images:not(:last-child) {
+  margin-right: 4em;
+}
+
+.services-title {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.services-img-right {
+  min-width: 100%;
 }
