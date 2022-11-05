@@ -1,3 +1,43 @@
+@keyframes gallery-1 {
+  0% {
+    transform: translateX(-1000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes gallery-2 {
+  0% {
+    transform: translateX(1000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes gallery-3 {
+  0% {
+    transform: translateX(-500px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes gallery-4 {
+  0% {
+    transform: translateX(500px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 :root {
   --color-header-bkg: #000;
   --color-text: #FFFCFC;
@@ -32,7 +72,6 @@ li:not(:last-child) {
 .header {
   display: flex;
   justify-content: space-between;
-  min-height: 10vh;
   background-color: var(--color-header-bkg);
   position: sticky;
   top: 0;
@@ -41,12 +80,17 @@ li:not(:last-child) {
   line-height: 100%;
 }
 
+.header img {
+  display: block;
+}
+
 .navbar {
   padding-right: 1.5em;
 }
 
 .gallery-wrapper {
   min-height: 90vh;
+  padding: 2em;
 }
 
 .gallery-container {
@@ -55,4 +99,28 @@ li:not(:last-child) {
 
 .gallery-container > div {
   width: 25%;
+}
+
+.gallery-container img {
+  width: 100%;
+}
+
+.gallery-container > div:not(:last-child) {
+  margin-right: 1em;
+}
+
+.gallery-img-1 {
+  animation: gallery-3 2s linear;
+}
+
+.gallery-img-4 {
+  animation: gallery-4 2s linear;
+}
+
+.gallery-img-2 {
+  animation: gallery-1 1s linear;
+}
+
+.gallery-img-3 {
+  animation: gallery-2 1s linear;
 }
