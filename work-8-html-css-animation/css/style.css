@@ -242,6 +242,7 @@
   --color-text-2: #000;
   --color-form-bkg: #E5E5E5;
   --color-input-placeholder: #00000080;
+  --color-icons: #000;
 }
 
 body {
@@ -288,6 +289,10 @@ input::placeholder {
   color: var(--color-input-placeholder);
 }
 
+i {
+  color: var(--color-icons);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -311,6 +316,7 @@ input::placeholder {
 
 .gallery-container {
   display: flex;
+  overflow: hidden;
 }
 
 .gallery-container > div {
@@ -468,12 +474,12 @@ input::placeholder {
 
 .contacts-container {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .contacts {
   text-align: center;
-  margin-right: 1em;
+  margin-right: 2em;
 }
 
 .footer-links {
@@ -494,7 +500,7 @@ input::placeholder {
 }
 
 .contacts-time {
-  margin-right: 1em;
+  margin-right: 2em;
   text-align: center;
 }
 
@@ -511,10 +517,24 @@ input::placeholder {
 }
 
 .social-networks {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .social-networks-title {
   font-weight: 700;
   font-size: 30px;
+  margin-bottom: .5em;
+}
+
+.social-networks-links {
+  margin: 0 auto;
+}
+
+.social-networks-links > div > a {
+  color: var(--color-text-2);
+}
+
+.social-networks-links > div > a > i {
+  margin-right: 1em;
 }
