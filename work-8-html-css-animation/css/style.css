@@ -513,3 +513,8 @@ input::placeholder {
 .social-networks {
   text-align: center;
 }
+
+.social-networks-title {
+  font-weight: 700;
+  font-size: 30px;
+}
