@@ -277,15 +277,16 @@ header {
   z-index: 1000;
 }
 
-input {
+input, textarea {
   border: none;
   padding: .5em;
   font-family: 'Rosario', sans-serif;
   font-weight: 700;
   font-size: 36px;
+  box-sizing: border-box;
 }
 
-input::placeholder {
+input, textarea::placeholder {
   color: var(--color-input-placeholder);
 }
 
@@ -423,12 +424,48 @@ i {
   display: flex;
 }
 
-.team-container > div > img {
+
+.team-container .team-card > img {
   max-width: 100%;
+  display: block;
 }
 
 .team-container > div:not(:last-child) {
   margin-right: 1.5em;
+}
+
+.team-card {
+  border-radius: 35px;
+  overflow: hidden;
+  position: relative;
+}
+
+.team-container:hover .team-card > img {
+  filter: brightness(0.5);
+}
+
+.team-container .team-card:hover > img {
+  filter: none;
+}
+
+.team-card-title {
+  position: absolute;
+  background-color: #A3530AB2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4em;
+  font-size: 32px;
+  color: #fff; 
+  display: none;
+}
+
+.team-card:hover .team-card-title {
+  display: flex;
+}
+
+.team-card-title > div {
+ margin: auto;
 }
 
 .footer-container {
@@ -466,6 +503,10 @@ i {
 
 .form-name {
   margin-right: 2.5em;
+}
+
+.form-message > textarea {
+  width: 100%;
 }
 
 .footer-map > iframe {
