@@ -239,6 +239,9 @@
 :root {
   --color-header-bkg: #000;
   --color-text: #FFFCFC;
+  --color-text-2: #000;
+  --color-form-bkg: #E5E5E5;
+  --color-input-placeholder: #00000080;
 }
 
 body {
@@ -271,6 +274,18 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+input {
+  border: none;
+  padding: .5em;
+  font-family: 'Rosario', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+input::placeholder {
+  color: var(--color-input-placeholder);
 }
 
 .header {
@@ -408,4 +423,93 @@ header {
 
 .team-container > div:not(:last-child) {
   margin-right: 1.5em;
+}
+
+.footer-container {
+  min-height: 90vh;
+  padding: 3em;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.footer-form {
+  margin-right: 2em;
+}
+
+.form-title {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: .5em;
+}
+
+.form-container {
+  background-color: var(--color-form-bkg);
+  padding: 1em;
+}
+
+.form-info {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.form-name {
+  margin-right: 2.5em;
+}
+
+.footer-map > iframe {
+  max-width: 100%;
+}
+
+.contacts-container {
+  display: flex;
+  align-items: center;
+}
+
+.contacts {
+  text-align: center;
+  margin-right: 1em;
+}
+
+.footer-links {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.footer-links > a {
+  color: var(--color-text-2);
+  font-weight: 600;
+  font-style: italic;
+}
+
+.adress-item {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.contacts-time {
+  margin-right: 1em;
+  text-align: center;
+}
+
+.contacts-time-title {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: .5em;
+}
+
+.contacts-time-details {
+  font-weight: 600;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.social-networks {
+  text-align: center;
 }
