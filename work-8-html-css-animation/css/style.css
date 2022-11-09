@@ -1,241 +1,3 @@
-@keyframes gallery-1 {
-  0% {
-    transform: translateX(-1000px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes gallery-2 {
-  0% {
-    transform: translateX(1000px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes gallery-3 {
-  0% {
-    transform: translateX(-500px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes gallery-4 {
-  0% {
-    transform: translateX(500px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes rotate-1 {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  25% {
-    transform: rotate(360deg);
-  }
-
-  50% {
-    transform: rotate(360deg);
-  }
-
-  75% {
-    transform: rotate(360deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes rotate-2 {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  25% {
-    transform: rotate(0deg);
-  }
-
-  50% {
-    transform: rotate(360deg);
-  }
-
-  75% {
-    transform: rotate(360deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes rotate-3 {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  25% {
-    transform: rotate(0deg);
-  }
-
-  50% {
-    transform: rotate(0deg);
-  }
-
-  75% {
-    transform: rotate(360deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes rotate-4 {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  25% {
-    transform: rotate(0deg);
-  }
-
-  50% {
-    transform: rotate(0deg);
-  }
-
-  75% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes move-1 {
-  0% {
-    transform: translate(0, 0);
-  }
-
-  25% {
-    transform: translate(414px, 0);
-  }
-
-  50% {
-    transform: translate(414px, 460px);
-  }
-
-  75% {
-    transform: translate(0, 460px);
-  }
-
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
-@keyframes move-2 {
-  0% {
-    transform: translate(0, 0);
-  }
-
-  25% {
-    transform: translate(414px, 0);
-  }
-
-  50% {
-    transform: translate(414px, 460px);
-  }
-
-  75% {
-    transform: translate(0, 460px);
-  }
-
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
-@keyframes move-2 {
-  0% {
-    transform: translate(0, 0);
-  }
-
-  25% {
-    transform: translate(0, 460px);
-  }
-
-  50% {
-    transform: translate(-415px, 460px);
-  }
-
-  75% {
-    transform: translate(-415px, 0);  
-  }
-
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
-@keyframes move-3 {
-  0% {
-    transform: translate(0, 0);
-  }
-
-  25% {
-    transform: translate(-414px, 0);
-  }
-
-  50% {
-    transform: translate(-414px, -459px);
-  }
-
-  75% {
-    transform: translate(0, -459px);  
-  }
-
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
-@keyframes move-4 {
-  0% {
-    transform: translate(0, 0);
-  }
-
-  25% {
-    transform: translate(0, -460px);
-  }
-
-  50% {
-    transform: translate(414px, -460px);
-  }
-
-  75% {
-    transform: translate(414px, 0);  
-  }
-
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
 :root {
   --color-header-bkg: #000;
   --color-text: #FFFCFC;
@@ -333,19 +95,19 @@ i {
 }
 
 .gallery-img-1 {
-  animation: gallery-3 2s linear;
-}
-
-.gallery-img-4 {
-  animation: gallery-4 2s linear;
+  animation: left-to-right 2s linear;
 }
 
 .gallery-img-2 {
-  animation: gallery-1 1s linear;
+  animation: left-to-right 1s linear;
 }
 
 .gallery-img-3 {
-  animation: gallery-2 1s linear;
+  animation: right-to-left 1s linear;
+}
+
+.gallery-img-4 {
+  animation: right-to-left 2s linear;
 }
 
 .services-wrapper {
@@ -380,7 +142,7 @@ i {
 }
 
 .services-image-1 > img {
-  animation: rotate-1 20s linear infinite;
+  animation: rotate 20s 0s linear infinite;
 }
 
 .services-image-2 {
@@ -388,7 +150,7 @@ i {
 }
 
 .services-image-2 > img {
-  animation: rotate-2 20s linear infinite;
+  animation: rotate 20s 5s linear infinite;
 }
 
 .services-image-3 {
@@ -396,7 +158,7 @@ i {
 }
 
 .services-image-3 > img {
-  animation: rotate-3 20s linear infinite;
+  animation: rotate 20s 10s linear infinite;
 }
 
 .services-image-4 {
@@ -404,7 +166,7 @@ i {
 }
 
 .services-image-4 > img {
-  animation: rotate-4 20s linear infinite;
+  animation: rotate 20s 15s linear infinite;
 }
 
 .team-wrapper {
@@ -578,4 +340,19 @@ i {
 
 .social-networks-links > div > a > i {
   margin-right: 1em;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-container > div:nth-child(even) {
+    animation: left-to-right 2s linear;
+  }
+
+  .gallery-container > div:nth-child(odd) {
+    animation: right-to-left 2s linear;
+  }
 }
