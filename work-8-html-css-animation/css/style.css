@@ -221,6 +221,10 @@ i {
  margin: auto;
 }
 
+.team-container-2 {
+  display: none;
+}
+
 .footer-container {
   min-height: 90vh;
   padding: 3em;
