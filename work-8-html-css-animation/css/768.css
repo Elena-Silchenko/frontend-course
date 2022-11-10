@@ -1,4 +1,8 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    overflow: hidden;
+  }
+
   .gallery-container {
     display: none !important;
   }
@@ -40,6 +44,7 @@
   .team-container-2 {
     display: flex !important;
     flex-direction: column;
+    align-items: center;
   }
 
   .team-container-2 > div {
@@ -64,5 +69,36 @@
 
   .team-card:hover .team-card-title {
     opacity: 1;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+
+  .footer-info {
+    margin: 0 !important;
+  }
+
+  .footer-form {
+    display: none !important;
+  }
+
+  .footer-map > iframe {
+    width: 850px;
+  }
+
+  .contacts-container {
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
+
+  .contacts, .contacts-time {
+    margin: 0 0 2em;
+  }
+
+  .social-networks-title {
+    text-align: center;
   }
 }

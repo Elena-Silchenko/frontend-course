@@ -383,6 +383,8 @@ i {
   }
 
   .footer-form {
+    display: flex !important;
+    flex-direction: column;
     margin: 0 0 1em;
   }
 
