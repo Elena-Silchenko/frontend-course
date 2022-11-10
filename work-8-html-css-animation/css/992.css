@@ -1,3 +1,13 @@
 @media screen and (min-width: 992px) and (max-width: 1619px) {
-  
+  .team-container:hover .team-card > img {
+    filter: brightness(0.5);
+  }
+
+  .team-container .team-card:hover > img {
+    filter: none;
+  }
+
+  .team-card:hover .team-card-title {
+    display: flex;
+  }
 }

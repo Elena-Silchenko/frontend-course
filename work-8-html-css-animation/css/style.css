@@ -186,7 +186,6 @@ i {
   display: flex;
 }
 
-
 .team-container .team-card > img {
   max-width: 100%;
   display: block;
@@ -202,14 +201,6 @@ i {
   position: relative;
 }
 
-.team-container:hover .team-card > img {
-  filter: brightness(0.5);
-}
-
-.team-container .team-card:hover > img {
-  filter: none;
-}
-
 .team-card-title {
   position: absolute;
   background-color: #A3530AB2;
@@ -220,10 +211,6 @@ i {
   font-size: 32px;
   color: #fff; 
   display: none;
-}
-
-.team-card:hover .team-card-title {
-  display: flex;
 }
 
 .team-card-title > div {
@@ -371,5 +358,15 @@ i {
 
   .team-card {
     margin-bottom: 1em;
+  }
+
+  .team-card .team-card-title {
+    display: flex;
+    transition: opacity 2s;
+    opacity: 0;
+  }
+
+  .team-card:focus .team-card-title {
+    opacity: 1;
   }
 }
