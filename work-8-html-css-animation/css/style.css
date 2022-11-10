@@ -369,4 +369,40 @@ i {
   .team-card:focus .team-card-title {
     opacity: 1;
   }
+
+  .footer-info {
+    flex-direction: column;
+  }
+
+  .footer-form {
+    margin: 0 0 1em;
+  }
+
+  .form-info {
+    display: block;  
+  }
+
+  .form-name {
+    margin: 0 0 2em;
+  }
+
+  .form-name, div > input {
+    width: 100%;
+  }
+
+  .footer-map > iframe {
+    width: 707px;
+  }
+
+  .contacts-container {
+    flex-direction: column;
+  }
+
+  .contacts, .contacts-time {
+    margin: 0 0 2em;
+  }
+
+  .social-networks-title {
+    text-align: center;
+  }
 }
