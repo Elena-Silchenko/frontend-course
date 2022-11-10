@@ -110,6 +110,10 @@ i {
   animation: right-to-left 2s linear;
 }
 
+.gallery-container-2 {
+  display: none;
+}
+
 .services-wrapper {
   display: flex;
   min-height: 90vh;

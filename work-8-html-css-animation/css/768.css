@@ -1,3 +1,35 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .gallery-container {
+    display: none !important;
+  }
   
+  .gallery-container-2 {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .gallery-container-2 > div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .gallery-container-2 > div:not(:last-child) {
+    margin-bottom: 1em;
+  }
+
+  .gallery-img-1, .gallery-img-2 {
+    margin-right: 1em;
+  }
+
+  .gallery-img-1 {
+    animation: left-to-right 1s linear;
+  }
+
+  .gallery-img-2 {
+    animation: right-to-left 1s linear;
+  }
+
+  .services-wrapper {
+    flex-flow: column-reverse;
+  }
 }
