@@ -18,7 +18,6 @@ a {
 }
 
 ul {
-  display: flex;
   font-size: 26px;
   font-weight: 700;
   font-style: italic;
@@ -34,7 +33,6 @@ li:not(:last-child) {
 }
 
 header {
-  position: sticky;
   top: 0;
   z-index: 1000;
 }
@@ -57,19 +55,8 @@ i {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
   background-color: var(--color-header-bkg);
-  align-items: center;
   line-height: 100%;
-}
-
-.header img {
-  display: block;
-}
-
-.navbar {
-  padding-right: 1.5em;
 }
 
 .gallery-wrapper {
