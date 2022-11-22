@@ -7,6 +7,10 @@
   --color-icons: #000;
 }
 
+.navbar-nav {
+  --bs-nav-link-color: #fff;
+}
+
 body {
   margin: 0;
   font-family: 'Rosario', sans-serif;
