@@ -1,0 +1,9 @@
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.header {
+  border: 3px solid rgb(226 0 0);
+  height: 200px;
+}
