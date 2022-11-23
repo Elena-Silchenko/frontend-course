@@ -11,6 +11,14 @@
 <body>
   <script>
     //Task 1. Сверстать страницу подобную макету с помощью document write
+    /* Task 2. Создать 3 переменных которые перед загрузкой страницы спросят у 
+    пользователя: Имя, Фамилию, Возвраст 
+    и выведут данные на страницу которую мы ранние сверстали. */
+
+    const name = prompt("Enter your name")
+    const surname = prompt("Enter your surname") 
+    const age = prompt("Enter your age")
+
     document.write(`
       <div class="container">
         <header>
@@ -21,7 +29,11 @@
             <div class="nav"></div>
           </nav>
           <section>
-            <div class="section"></div>
+            <div class="section">
+              <div>Name: ${name}</div>
+              <div>Surname: ${surname}</div>
+              <div>Age: ${age}</div>
+            </div>
           </section>
         </div>
         <footer>
