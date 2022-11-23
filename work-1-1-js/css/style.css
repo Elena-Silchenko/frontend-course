@@ -10,9 +10,20 @@
   box-sizing: border-box;
 }
 
+.d-flex {
+  display: flex;
+}
+
 .nav {
   border: 3px solid rgb(252 143 0);
   width: 100px;
+  height: 400px;
+  box-sizing: border-box;
+}
+
+.section {
+  border: 3px solid rgb(252 143 0);
+  width: 700px;
   height: 400px;
   box-sizing: border-box;
 }
