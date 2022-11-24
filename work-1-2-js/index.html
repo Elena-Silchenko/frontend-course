@@ -9,6 +9,74 @@
   <script src="./js/index.js" defer></script>
 </head>
 <body>
-  
+  <script>
+    /* Використовуючи циклічні конструкції, пробіли (&nbsp;) та зірки (*) намалюйте:
+      Порожній 
+      - прямокутник 
+      Заповнений 
+      - Рівнобедрений трикутник 
+      - Трикутник прямокутний
+      - Ромб
+    */
+
+    // прямокутник 
+    // for (let i = 0; i < 10; i++) {
+    //   for (let j = 0; j < 10; j++) {
+    //     document.write("*")
+    //   }
+    //   document.write("<br>")
+    // }
+
+    for (let j = 0; j < 10; j++) {
+      document.write("*")
+    }
+    document.write("<br>")
+
+    for (let i = 1; i <= 8; i++) {
+      document.write("*")
+      for (let j = 1; j <= 8; j++) {
+        document.write("&nbsp;")
+      }
+      document.write("*")
+      document.write("<br>")
+    }
+
+    for (let j = 0; j < 10; j++) {
+      document.write("*")
+    }
+    document.write("<br>")
+    document.write("<br>")
+    document.write("<br>")
+
+    for (let i = 0; i < 10; i++) {
+      for (let j = 0; j < 10; j++) {
+        if (i === 0 || i === 9 || j === 0 || j === 9) {
+          document.write("*")
+        } else {
+          document.write("&nbsp;")
+        }
+      }
+      document.write("<br>")
+    }
+
+    document.write("<br>")
+    document.write("<br>")
+
+    // Рівнобедрений трикутник
+    
+    for (let i = 0; i < 10; i++){
+      for (let j = i + 1; j < 10; j++) {
+        document.write("&nbsp;")
+      }
+
+      for (let y = 0; y < 1 + 2 * i; y++) {
+        document.write("*")
+      }
+      document.write("<br>")
+    }
+
+    //Ромб
+
+  </script>
 </body>
 </html>
