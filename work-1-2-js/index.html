@@ -19,14 +19,18 @@
       - Ромб
     */
 
-    // прямокутник 
-    // for (let i = 0; i < 10; i++) {
-    //   for (let j = 0; j < 10; j++) {
-    //     document.write("*")
-    //   }
-    //   document.write("<br>")
-    // }
+    // прямокутник заповнений 
+    for (let i = 0; i < 10; i++) {
+      for (let j = 0; j < 10; j++) {
+        document.write("*")
+      }
+      document.write("<br>")
+    }
+    document.write("<br>")
+    document.write("<br>")
+    document.write("<br>")
 
+    // прямокутник порожній - 1й варіант
     for (let j = 0; j < 10; j++) {
       document.write("*")
     }
@@ -48,6 +52,7 @@
     document.write("<br>")
     document.write("<br>")
 
+    // прямокутник порожній - 2й варіант
     for (let i = 0; i < 10; i++) {
       for (let j = 0; j < 10; j++) {
         if (i === 0 || i === 9 || j === 0 || j === 9) {
@@ -63,8 +68,37 @@
     document.write("<br>")
 
     // Рівнобедрений трикутник
-    
-    for (let i = 0; i < 10; i++){
+    for (let i = 0; i < 10; i++) {
+      for (let j = i + 1; j < 10; j++) {
+        document.write("&nbsp;")
+      }
+
+      for (let y = 0; y < 1 + 2 * i; y++) {
+        document.write("*")
+      }
+      document.write("<br>")
+    }
+    document.write("<br>")
+    document.write("<br>")
+    document.write("<br>")
+
+    // Трикутник прямокутний
+    for (let i = 0; i < 10; i++) {
+      for (let j = i + 1; j < 10; j++) {
+        document.write("&nbsp;")
+      }
+
+      for (let y = 1 + i; y > 0; y--) {
+        document.write("*")
+      }
+      document.write("<br>")
+    }
+    document.write("<br>")
+    document.write("<br>")
+    document.write("<br>")
+
+    // Ромб
+    for (let i = 0; i < 10; i++) {
       for (let j = i + 1; j < 10; j++) {
         document.write("&nbsp;")
       }
@@ -75,8 +109,16 @@
       document.write("<br>")
     }
 
-    //Ромб
+    for (let i = 0; i < 10; i++) {
+      for (let j = i; j < 10; j++) {
+        document.write("*")
+      }
 
+      for (let y = i + 1; y < 10; y++) {
+        document.write("&nbsp;")
+      }
+      document.write("<br>")
+    }
   </script>
 </body>
 </html>
