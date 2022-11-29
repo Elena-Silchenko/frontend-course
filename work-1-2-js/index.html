@@ -10,16 +10,16 @@
 </head>
 <body>
   <script>
-    /* Використовуючи циклічні конструкції, пробіли (&nbsp;) та зірки (*) намалюйте:
-      Порожній 
-      - прямокутник 
-      Заповнений 
-      - Рівнобедрений трикутник 
-      - Трикутник прямокутний
-      - Ромб
+    /* Using looping constructions, spaces (&nbsp;) and stars (*) draw:
+      Empty
+      - a rectangle
+      Full
+      - Isosceles triangle
+      - A right triangle
+      - Rhombus
     */
 
-    // прямокутник заповнений 
+    // the rectangle is filled
     for (let i = 0; i < 10; i++) {
       for (let j = 0; j < 10; j++) {
         document.write("*")
@@ -30,7 +30,7 @@
     document.write("<br>")
     document.write("<br>")
 
-    // прямокутник порожній - 1й варіант
+    // the rectangle is empty - the 1st option
     for (let j = 0; j < 10; j++) {
       document.write("*")
     }
@@ -52,7 +52,7 @@
     document.write("<br>")
     document.write("<br>")
 
-    // прямокутник порожній - 2й варіант
+    // the rectangle is empty - the 2nd option
     for (let i = 0; i < 10; i++) {
       for (let j = 0; j < 10; j++) {
         if (i === 0 || i === 9 || j === 0 || j === 9) {
@@ -67,7 +67,7 @@
     document.write("<br>")
     document.write("<br>")
 
-    // Рівнобедрений трикутник
+    // Isosceles triangle
     for (let i = 0; i < 10; i++) {
       for (let j = i + 1; j < 10; j++) {
         document.write("&nbsp;")
@@ -82,7 +82,7 @@
     document.write("<br>")
     document.write("<br>")
 
-    // Трикутник прямокутний
+    // A right triangle
     for (let i = 0; i < 10; i++) {
       for (let j = i + 1; j < 10; j++) {
         document.write("&nbsp;")
@@ -97,7 +97,7 @@
     document.write("<br>")
     document.write("<br>")
 
-    // Ромб
+    // rhombus
     for (let i = 0; i < 10; i++) {
       for (let j = i + 1; j < 10; j++) {
         document.write("&nbsp;")
@@ -120,14 +120,12 @@
       document.write("<br>")
     }
 
-    // сложить все числа от 5 до 15
+    // sum all number from 5 to 15
     let sum = 0
     for (let i = 5; i <= 15; i++) {
       sum += i
       console.log(sum)
     }
-
-    
   </script>
 </body>
 </html>
