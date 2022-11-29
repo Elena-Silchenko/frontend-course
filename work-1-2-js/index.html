@@ -109,16 +109,18 @@
       document.write("<br>")
     }
 
-    for (let i = 0; i < 10; i++) {
-      for (let j = i; j < 10; j++) {
-        document.write("*")
+    for (let i = 8; i >= 0; i--) {
+      for (let j = i + 1; j < 10; j++) {
+        document.write("&nbsp;")
       }
 
-      for (let y = i + 1; y < 10; y++) {
-        document.write("&nbsp;")
+      for (let y = 0; y < 1 + 2 * i; y++) {
+        document.write("*")
       }
       document.write("<br>")
     }
+
+    
   </script>
 </body>
 </html>
