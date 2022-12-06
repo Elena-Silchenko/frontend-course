@@ -29,3 +29,8 @@ console.log(numbers)
 const nums = [1, 2, 3]
 nums.unshift(4, 5, 6)
 console.log(nums)
+
+// task 6 - given array ['js', 'css', 'jq']. Display the first item on the screen.
+
+const list = ['js', 'css', 'jq']
+console.log(list[0])
