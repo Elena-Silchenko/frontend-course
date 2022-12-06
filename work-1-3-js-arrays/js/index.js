@@ -58,3 +58,10 @@ const arr3 = [3, 4, 1, 2, 7]
 arr3.sort()
 console.log(arr3)
 
+// task 11 - given an array with elements 'Hello,', 'world!'. Display the phrase "Hello, world!".
+
+let greeting = ['Hello,', 'world!']
+let joinedGreeting = greeting.join(" ")
+console.log(joinedGreeting)
+
+
