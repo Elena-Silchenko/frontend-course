@@ -76,4 +76,17 @@ const arr = [1, 2, 3, 4, 5]
 const arr5 = new Array(1, 2, 3, 4, 5)
 console.log(arr5)
 
-//
+// task 14 - Створіть масив arr = ['a', 'b', 'c', 'd'] і за допомогою його виведіть на екран рядок 'a+b, c+d'.
+
+const arr6 = ['a', 'b', 'c', 'd']
+console.log(arr6[0] + arr6[1], arr6[2] + arr6[3])
+
+// task 15 - Given a multidimensional array arr7. Print the word 'blue'
+
+const arr7 = {
+  'ua':['блакитний', 'червоний', 'зелений'],
+  'en':['blue', 'red', 'green'],
+}
+console.log(arr7['en'][0])
+console.log(arr7['ua'][0])
+
