@@ -61,7 +61,12 @@ console.log(arr3)
 // task 11 - given an array with elements 'Hello,', 'world!'. Display the phrase "Hello, world!".
 
 let greeting = ['Hello,', 'world!']
-let joinedGreeting = greeting.join(" ")
+let joinedGreeting = greeting.join(' ')
 console.log(joinedGreeting)
 
+// task 12 - given an array ['Hello, 'world!']. It is necessary to write in the zero element of this array the word 'Bye,' (that is, instead of the word 'Hello,' there will be 'Bye,').
+
+let message = ['Hello,', 'world!']
+message.splice(0, 1, 'Bye,')
+console.log(message.join(' '))
 
