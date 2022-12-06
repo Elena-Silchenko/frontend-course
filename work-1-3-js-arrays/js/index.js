@@ -34,3 +34,9 @@ console.log(nums)
 
 const list = ['js', 'css', 'jq']
 console.log(list[0])
+
+// task 7 - given an array [1, 2, 3, 4, 5]. Using the slice method, record new elements [1, 2, 3].
+
+const numsArr = [1, 2, 3, 4, 5]
+console.log(numsArr.slice(0, 3))
+
