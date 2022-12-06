@@ -24,3 +24,8 @@ const numbers = [1, 2, 3]
 numbers.push(4, 5, 6)
 console.log(numbers)
 
+// task 5 - given an array [1, 2, 3]. Add elements 4, 5, 6 to the beginning.
+
+const nums = [1, 2, 3]
+nums.unshift(4, 5, 6)
+console.log(nums)
