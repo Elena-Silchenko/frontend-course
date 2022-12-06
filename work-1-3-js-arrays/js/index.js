@@ -46,3 +46,9 @@ const listNums = [1, 2, 3, 4, 5]
 listNums.splice(1, 2)
 console.log(listNums)
 
+// task 9 - given an array [1, 2, 3, 4, 5]. Using the splice method, convert the array to [1, 2, 10, 3, 4, 5].
+
+const arrNums = [1, 2, 3, 4, 5]
+arrNums.splice(2, 0, 10)
+console.log(arrNums)
+
