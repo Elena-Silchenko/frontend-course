@@ -8,9 +8,9 @@ console.log(newArr)
 
 // task 2 - given an array ['a', 'b', 'c']. Add elements 1, 2, 3 to the end.
 
-const arr = ['a', 'b', 'c']
-arr.push(1, 2, 3)
-console.log(arr)
+const arr3 = ['a', 'b', 'c']
+arr3.push(1, 2, 3)
+console.log(arr3)
 
 // task 3 - given an array [1, 2, 3]. Make it an array [3, 2, 1].
 
@@ -54,9 +54,9 @@ console.log(arrNums)
 
 // task 10 - given an array [3, 4, 1, 2, 7]. Sort it.
 
-const arr3 = [3, 4, 1, 2, 7]
+const arr4 = [3, 4, 1, 2, 7]
 arr3.sort()
-console.log(arr3)
+console.log(arr4)
 
 // task 11 - given an array with elements 'Hello,', 'world!'. Display the phrase "Hello, world!".
 
@@ -70,3 +70,10 @@ let message = ['Hello,', 'world!']
 message.splice(0, 1, 'Bye,')
 console.log(message.join(' '))
 
+// task 13 - create an array arr with elements 1, 2, 3, 4, 5 in two different ways.
+
+const arr = [1, 2, 3, 4, 5]
+const arr5 = new Array(1, 2, 3, 4, 5)
+console.log(arr5)
+
+//
