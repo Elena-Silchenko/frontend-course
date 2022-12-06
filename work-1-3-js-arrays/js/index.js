@@ -12,3 +12,9 @@ const arr = ['a', 'b', 'c']
 arr.push(1, 2, 3)
 console.log(arr)
 
+// task 3 - given an array [1, 2, 3]. Make it an array [3, 2, 1].
+
+const array = [1, 2, 3]
+array.reverse()
+console.log(array)
+
