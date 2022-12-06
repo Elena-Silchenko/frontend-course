@@ -18,3 +18,9 @@ const array = [1, 2, 3]
 array.reverse()
 console.log(array)
 
+// task 4 - given an array [1, 2, 3]. Add elements 4, 5, 6 to the end.
+
+const numbers = [1, 2, 3]
+numbers.push(4, 5, 6)
+console.log(numbers)
+
