@@ -40,3 +40,9 @@ console.log(list[0])
 const numsArr = [1, 2, 3, 4, 5]
 console.log(numsArr.slice(0, 3))
 
+// task 8 - given an array [1, 2, 3, 4, 5]. Using the splice method, convert the array to [1, 4, 5].
+
+const listNums = [1, 2, 3, 4, 5]
+listNums.splice(1, 2)
+console.log(listNums)
+
