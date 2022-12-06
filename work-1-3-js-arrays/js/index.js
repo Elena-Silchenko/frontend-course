@@ -52,3 +52,9 @@ const arrNums = [1, 2, 3, 4, 5]
 arrNums.splice(2, 0, 10)
 console.log(arrNums)
 
+// task 10 - given an array [3, 4, 1, 2, 7]. Sort it.
+
+const arr3 = [3, 4, 1, 2, 7]
+arr3.sort()
+console.log(arr3)
+
