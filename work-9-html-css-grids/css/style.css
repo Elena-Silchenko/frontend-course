@@ -141,4 +141,25 @@ body {
   font-size: 19px;
 }
 
-.card-7 { grid-area: 4 / 3 / 6 / 4; }
+.card-7 { 
+  grid-area: 4 / 3 / 6 / 4;
+  box-shadow: 12px 12px #000;
+}
+
+.card-7-title {
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: .5em;
+}
+
+.card-7-hashtag {
+  font-size: 19px;
+}
+
+.card-7-info {
+  display: flex;
+}
+
+.card-7-info > div:not(:last-child) {
+  margin-right: 1em;
+}
