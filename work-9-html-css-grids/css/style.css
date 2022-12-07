@@ -68,7 +68,13 @@ body {
   box-shadow: 12px 12px #000;
 }
 
-.card-2 { grid-area: 5 / 1 / 6 / 2; }
+.card-2 { 
+  grid-area: 5 / 1 / 6 / 2;
+  font-weight: 700;
+  font-size: 19px;
+  box-shadow: 12px 12px #000;
+}
+
 .card-3 { grid-area: 1 / 2 / 2 / 4; }
 .card-4 { grid-area: 2 / 2 / 3 / 3; }
 .card-5 { grid-area: 3 / 2 / 6 / 3; }
