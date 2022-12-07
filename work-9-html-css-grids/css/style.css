@@ -1,0 +1,11 @@
+:root {
+  --color-bkg: #FFB084;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+  background-color: var(--color-bkg);
+}
