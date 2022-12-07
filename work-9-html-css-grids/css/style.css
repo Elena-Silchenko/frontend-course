@@ -3,6 +3,7 @@
   --color-cards-bkg: #fff;
   --color-card-4: #29A71E;
   --color-card-5: #3675B0;
+  --color-card-6: #E13535;
 }
 
 body {
@@ -59,7 +60,6 @@ body {
 
 .additional-info span {
   font-weight: 600;
-  
 }
 
 .additional-info > div:not(:last-child) {
@@ -111,6 +111,7 @@ body {
 
 .card-5 { 
   grid-area: 3 / 2 / 6 / 3;
+  box-shadow: 12px 12px #3675B0;
 }
 
 .card-5-title {
@@ -124,5 +125,20 @@ body {
   font-size: 19px;
 }
 
-.card-6 { grid-area: 2 / 3 / 4 / 4; }
+.card-6 { 
+  grid-area: 2 / 3 / 4 / 4;
+  box-shadow: 12px 12px #E13535;
+}
+
+.card-6-title {
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: .5em;
+  color: var(--color-card-6);
+}
+
+.card-6 li {
+  font-size: 19px;
+}
+
 .card-7 { grid-area: 4 / 3 / 6 / 4; }
