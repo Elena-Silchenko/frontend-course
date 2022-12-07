@@ -120,5 +120,9 @@ body {
   color: var(--color-card-5);
 }
 
+.card-5 li {
+  font-size: 19px;
+}
+
 .card-6 { grid-area: 2 / 3 / 4 / 4; }
 .card-7 { grid-area: 4 / 3 / 6 / 4; }
