@@ -1,11 +1,31 @@
 :root {
-  --color-bkg: #FFB084;
+  --color-main-bkg: #FFB084;
 }
 
 body {
   font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  background-color: var(--color-main-bkg);
 }
 
 .container {
-  background-color: var(--color-bkg);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  padding: 30px;
+  gap: 20px;
 }
+
+.container > div {
+  padding: 20px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.div1 { grid-area: 1 / 1 / 5 / 2; }
+.div2 { grid-area: 5 / 1 / 6 / 2; }
+.div3 { grid-area: 1 / 2 / 2 / 4; }
+.div4 { grid-area: 2 / 2 / 3 / 3; }
+.div5 { grid-area: 3 / 2 / 6 / 3; }
+.div6 { grid-area: 2 / 3 / 4 / 4; }
+.div7 { grid-area: 4 / 3 / 6 / 4; }
