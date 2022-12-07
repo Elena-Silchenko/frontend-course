@@ -12,20 +12,60 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  padding: 30px;
+  padding: 3em;
   gap: 20px;
 }
 
 .container > div {
-  padding: 20px;
+  padding: 1.5em;
   border-radius: 20px;
   background: #fff;
 }
 
-.div1 { grid-area: 1 / 1 / 5 / 2; }
-.div2 { grid-area: 5 / 1 / 6 / 2; }
-.div3 { grid-area: 1 / 2 / 2 / 4; }
-.div4 { grid-area: 2 / 2 / 3 / 3; }
-.div5 { grid-area: 3 / 2 / 6 / 3; }
-.div6 { grid-area: 2 / 3 / 4 / 4; }
-.div7 { grid-area: 4 / 3 / 6 / 4; }
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 2em;
+}
+
+.card-img {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.card-img > img {
+  margin: auto;
+}
+
+.card-info > div:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.card-info span {
+  font-weight: 600;
+}
+
+.additional-info {
+  display: flex;
+}
+
+.additional-info span {
+  font-weight: 600;
+}
+
+.additional-info > div:not(:last-child) {
+  margin-right: 2em;
+}
+
+.card-1 { 
+  grid-area: 1 / 1 / 5 / 2;
+  box-shadow: 12px 12px #000;
+}
+
+.card-2 { grid-area: 5 / 1 / 6 / 2; }
+.card-3 { grid-area: 1 / 2 / 2 / 4; }
+.card-4 { grid-area: 2 / 2 / 3 / 3; }
+.card-5 { grid-area: 3 / 2 / 6 / 3; }
+.card-6 { grid-area: 2 / 3 / 4 / 4; }
+.card-7 { grid-area: 4 / 3 / 6 / 4; }
