@@ -1,5 +1,8 @@
 :root {
   --color-main-bkg: #FFB084;
+  --color-cards-bkg: #fff;
+  --color-card-4: #29A71E;
+  --color-card-5: #3675B0;
 }
 
 body {
@@ -19,7 +22,7 @@ body {
 .container > div {
   padding: 1.5em;
   border-radius: 30px;
-  background: #fff;
+  background: var(--color-cards-bkg);
 }
 
 .title {
@@ -75,8 +78,47 @@ body {
   box-shadow: 12px 12px #000;
 }
 
-.card-3 { grid-area: 1 / 2 / 2 / 4; }
-.card-4 { grid-area: 2 / 2 / 3 / 3; }
-.card-5 { grid-area: 3 / 2 / 6 / 3; }
+.card-3 { 
+  grid-area: 1 / 2 / 2 / 4;
+  box-shadow: 12px 12px #000;
+}
+
+.card-3-title {
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: .5em;
+}
+
+.card-3-text {
+  font-size: 19px;
+}
+
+.card-4 { 
+  grid-area: 2 / 2 / 3 / 3;
+  box-shadow: 12px 12px #29A71E;
+}
+
+.card-4-title {
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: .5em;
+  color: var(--color-card-4);
+}
+
+.card-4 li {
+  font-size: 19px;
+}
+
+.card-5 { 
+  grid-area: 3 / 2 / 6 / 3;
+}
+
+.card-5-title {
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: .5em;
+  color: var(--color-card-5);
+}
+
 .card-6 { grid-area: 2 / 3 / 4 / 4; }
 .card-7 { grid-area: 4 / 3 / 6 / 4; }
