@@ -13,12 +13,12 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
   padding: 3em;
-  gap: 20px;
+  gap: 30px;
 }
 
 .container > div {
   padding: 1.5em;
-  border-radius: 20px;
+  border-radius: 30px;
   background: #fff;
 }
 
