@@ -15,7 +15,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: 0.7fr 1fr 0.25fr 0.25fr 0.7fr;
   padding: 3em;
   gap: 30px;
 }
