@@ -9,22 +9,67 @@ body {
 }
 
 .container {
-  padding: 30px;
+  padding: 2em;
   display: flex;
   justify-content: center;
 }
 
 .container > div {
-  margin-right: 10px;
+  margin-right: 2em;
 }
 
 .cards {
   background-color: #fff;
-  border-radius: 20px;
-  padding: 20px;
-  margin-bottom: 10px;
+  border-radius: 30px;
+  padding: 2em;
+  margin-bottom: 1em;
+}
+
+.card-1-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 1em;
+}
+
+.card-img {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.card-img > img {
+  margin: auto;
+}
+
+.card-info {
+  font-size: 16.5px;
+}
+
+.card-info > div:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.card-info span {
+  font-weight: 600;
+}
+
+.additional-info {
+  display: flex;
+}
+
+.additional-info span {
+  font-weight: 600;
+}
+
+.additional-info > div:not(:last-child) {
+  margin-right: 2em;
+}
+
+.card-1 {
+  box-shadow: 12px 12px #000;
+  margin-bottom: 2em;
 }
 
 .card-4, .card-5 {
-  margin-right: 20px;
+  margin-right: 1em;
 }
