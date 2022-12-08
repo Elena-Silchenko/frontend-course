@@ -69,17 +69,22 @@ body {
   margin-right: 2em;
 }
 
+.card-1 {
+  height: Hug (319px);
+}
+
 .card-1, .card-3, .card-4, .card-6 {
   margin-bottom: 2em;
 }
 
-.card-1, .card-2, .card-3 {
+.card-1, .card-2, .card-3, .card-7 {
   box-shadow: 12px 12px #000;
 }
 
 .card-2 {
   font-weight: 700;
   font-size: 19px;
+  height: 62px;
 }
 
 .title {
@@ -92,8 +97,13 @@ body {
   font-size: 19px;
 }
 
+.card-3 {
+  height: 117px;
+}
+
 .card-4 {
   box-shadow: 12px 12px var(--color-card-4);
+  height: 101px;
 }
 
 .card-4-title {
@@ -106,6 +116,7 @@ body {
 
 .card-5 {
   box-shadow: 12px 12px var(--color-card-5);
+  height: 151px;
 }
 
 .card-5-title {
@@ -114,8 +125,21 @@ body {
 
 .card-6 {
   box-shadow: 12px 12px var(--color-card-6);
+  height: 165px;
 }
 
 .card-6-title {
   color: var(--color-card-6);
+}
+
+.card-7 {
+  height: 89px;
+}
+
+.card-7-info {
+  display: flex;
+}
+
+.card-7-info > div:not(:last-child) {
+  margin-right: 1em;
 }
