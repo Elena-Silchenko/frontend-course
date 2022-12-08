@@ -66,8 +66,16 @@ body {
 }
 
 .card-1 {
-  box-shadow: 12px 12px #000;
   margin-bottom: 2em;
+}
+
+.card-1, .card-2 {
+  box-shadow: 12px 12px #000;
+}
+
+.card-2 {
+  font-weight: 700;
+  font-size: 19px;
 }
 
 .card-4, .card-5 {
