@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  padding: 2em;
+  padding: 3em;
   display: flex;
   justify-content: center;
 }
@@ -22,11 +22,21 @@ body {
   margin-right: 2em;
 }
 
+.wrapper-1 {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
 .cards {
   background-color: var(--color-cards-bkg);
   border-radius: 30px;
   padding: 2em;
   margin-bottom: 1em;
+}
+
+.card-1 {
+  flex-grow: 4;
 }
 
 .card-1-title {
@@ -69,10 +79,6 @@ body {
   margin-right: 2em;
 }
 
-.card-1 {
-  height: Hug (319px);
-}
-
 .card-1, .card-3, .card-4, .card-6 {
   margin-bottom: 2em;
 }
@@ -82,9 +88,19 @@ body {
 }
 
 .card-2 {
+  flex-grow: 1;
   font-weight: 700;
   font-size: 19px;
-  height: 62px;
+}
+
+.wrapper-2 {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-3 {
+  flex-grow: 1;
 }
 
 .title {
@@ -97,13 +113,21 @@ body {
   font-size: 19px;
 }
 
-.card-3 {
-  height: 117px;
+.wrapper-3 {
+  display: flex;
+  flex-grow: 4;
+}
+
+.wrapper-4 {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .card-4 {
+  flex-grow: 2;
   box-shadow: 12px 12px var(--color-card-4);
-  height: 101px;
 }
 
 .card-4-title {
@@ -115,8 +139,8 @@ body {
 }
 
 .card-5 {
+  flex-grow: 3;
   box-shadow: 12px 12px var(--color-card-5);
-  height: 151px;
 }
 
 .card-5-title {
@@ -124,8 +148,8 @@ body {
 }
 
 .card-6 {
+  flex-grow: 3;
   box-shadow: 12px 12px var(--color-card-6);
-  height: 165px;
 }
 
 .card-6-title {
@@ -133,7 +157,7 @@ body {
 }
 
 .card-7 {
-  height: 89px;
+  flex-grow: 2;
 }
 
 .card-7-info {
