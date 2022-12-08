@@ -2,6 +2,8 @@
   --color-main-bkg: #FFB084;
   --color-cards-bkg: #fff;
   --color-card-4: #29A71E;
+  --color-card-5: #3675B0;
+  --color-card-6: #E13535;
 }
 
 body {
@@ -91,7 +93,7 @@ body {
 }
 
 .card-4 {
-  box-shadow: 12px 12px #29A71E;
+  box-shadow: 12px 12px var(--color-card-4);
 }
 
 .card-4-title {
@@ -100,4 +102,12 @@ body {
 
 .card-4, .card-5 {
   margin-right: 2em;
+}
+
+.card-5 {
+  box-shadow: 12px 12px var(--color-card-5);
+}
+
+.card-5-title {
+  color: var(--color-card-5);
 }
