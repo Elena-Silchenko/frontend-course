@@ -69,7 +69,7 @@ body {
   margin-right: 2em;
 }
 
-.card-1, .card-3, .card-4 {
+.card-1, .card-3, .card-4, .card-6 {
   margin-bottom: 2em;
 }
 
@@ -110,4 +110,12 @@ body {
 
 .card-5-title {
   color: var(--color-card-5);
+}
+
+.card-6 {
+  box-shadow: 12px 12px var(--color-card-6);
+}
+
+.card-6-title {
+  color: var(--color-card-6);
 }
