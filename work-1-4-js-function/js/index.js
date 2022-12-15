@@ -19,7 +19,7 @@ const div = (a, b) => {
 }
 
 function calculate(num1, num2, callback, show) {
-  show(callback(num1, num2))
+  show(callback(num1, num2));
 }
 
 const op1 = parseFloat(prompt("value 1")), 
