@@ -1,4 +1,4 @@
-/* 
+/* task 1
   Create a crypto wallet object. The wallet must contain the name of the owner,
   several currencies Bitcoin, Ethereum, Stellar and in each currency there is an additional
   currency name, logo, a few coins and the current rate. Also in object
@@ -16,7 +16,7 @@
   "Добрый день, ... ! На вашем балансе (Название валюты и логотип) осталось N монет, 
   если вы сегодня продадите их то, получите ...грн. Вывод на страницу должен быть 
   красиво офрмлен с использованием css и html.
-*/
+
 
 const wallet = {
   name: "Elena",
@@ -47,3 +47,24 @@ const wallet = {
 }
 
 wallet.show(prompt("Введите название валюты:", "btc, ehr, xlm"));
+*/
+
+/* task 2
+Создать объект "Документ", в котором определить свойства "Заголовок, тело, футер, 
+дата". Создать в объекте вложенный объект - "Приложение". Создать в объекте 
+"Приложение", вложенные объекты, "Заголовок, тело, футер, дата". Создать методы 
+для заполнения и отображения документа.
+*/
+
+const document = {
+  title: "",
+  body: "",
+  footer: "",
+  date: "",
+  annex: {
+    title: "",
+    body: "",
+    footer: "",
+    date: "",
+  }
+}
