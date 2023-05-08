@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  padding: 2em;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	background: #fff;
+  border: 1px solid black;
+  margin: auto;
+}

@@ -1,9 +1,11 @@
 import './App.css';
 
+import Square from './Square';
+
 function App() {
   return (
-    <div>
-      test
+    <div className="main">
+      <Square />
     </div>
   );
 }
