@@ -1,6 +1,16 @@
 .main {
-  display: flex;
   padding: 2em;
+  display: flex;
+}
+
+.border {
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10%;
+  width: 200px;
+	height: 380px;
+  padding: 1.5em;
+  background: #313030;
 }
 
 .square {
@@ -8,5 +18,10 @@
 	height: 100px;
 	background: #fff;
   border: 1px solid black;
+  border-radius: 30%;
   margin: auto;
+}
+
+.square:not(:last-child) {
+  margin-bottom: 2em;
 }

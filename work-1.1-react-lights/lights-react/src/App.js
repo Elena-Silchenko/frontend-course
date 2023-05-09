@@ -1,11 +1,15 @@
-import './App.css';
+import "./App.css";
 
-import Square from './Square';
+import Square from "./Square";
 
 function App() {
   return (
     <div className="main">
-      <Square />
+      <div className="border">
+        <Square color="red" />
+        <Square color="yellow" />
+        <Square color="green" />
+      </div>
     </div>
   );
 }
