@@ -1,60 +1,78 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import React, { useState } from 'react';
-
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import Dropdown from "react-bootstrap/Dropdown";
+import { DropdownButton, Form, InputGroup } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 
 function App() {
-  const [modalShow, setModalShow] = useState(false);
   return (
     <>
-    <div className="wrapper">
-      <div className="main-container">
-        <div className="main-title">Calorie Calculator</div>
-        <div className="main-btn">
-          <Button variant="primary" onClick={() => setModalShow(true)}>
-            Start here
-          </Button>
-        </div>
-      </div>
+      <div className="wrapper">
+        <div className="main-container">
+          <div className="main-title">Calorie Calculator</div>
+          <div className="main-btn">
+            <Button variant="outline-light">
+              Start here
+            </Button>
+          </div>
 
-      <MyVerticallyCenteredModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
-    </div>
+          <div>
+            <FormCalculator />
+          </div>
+        </div>
+
+      </div>
     </>
   );
 }
 
-function MyVerticallyCenteredModal(props) {
+function FormCalculator() {
   return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
+    <>
+      <Form>
+        <div>
+          <div>Choose your gender</div>
+          <div>
+            <Button variant="outline-light">Male</Button>
+            <Button variant="outline-light">Female</Button>
+          </div>
+
+          <InputGroup className="mb-3">
+            <DropdownButton
+              variant="outline-light"
+              title="Choose your activity level"
+              id="input-group-dropdown-1"
+            >
+              <Dropdown.Item href="#">Minimal</Dropdown.Item>
+              <Dropdown.Item href="#">Low</Dropdown.Item>
+              <Dropdown.Item href="#">Avrage</Dropdown.Item>
+              <Dropdown.Item href="#">High</Dropdown.Item>
+            </DropdownButton>
+          </InputGroup>
+
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label>Your age</Form.Label>
+            <Form.Control type="number" placeholder="Enter age" />
+          </Form.Group>
+
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label>Your height</Form.Label>
+            <Form.Control type="number" placeholder="Enter height in cm" />
+          </Form.Group>
+
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label>Your current weight</Form.Label>
+            <Form.Control type="number" placeholder="Enter weight in kg" />
+          </Form.Group>
+
+          <Button variant="outline-dark">
+            Calculate
+          </Button>
+        </div>
+      </Form>
+    </>
   );
-} 
+}
 
 export default App;
