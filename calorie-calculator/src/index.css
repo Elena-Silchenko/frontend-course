@@ -1,5 +1,16 @@
 body {
   margin: 0;
-  background: url(../src/img/istock-1155240408.png) center / cover no-repeat;
+  background: url(../src/img/istock-1155240408.png) no-repeat center center fixed;
+}
+
+body::before {
+ content: '';
+ width: 100%;
+ height: 100%;
+ left: 0;
+ top: 0;
+ position: absolute;
+ background-color: rgba(3, 3, 3, 0.505);
+ z-index: -1000;
 }
 

@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  padding: 3em;
+}
+
+.main-container {
+  margin: auto;
+}
+
+.main-container .main-title {
+  font-size: 5em;
+  color: #fff;
+  margin-bottom: .5em;
+
+}
+
+.main-btn {
+  text-align: center;
+}
