@@ -26,3 +26,49 @@
   font-weight: 600;
   font-size: 1.5em;
 }
+
+.modal-title {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.form-gender {
+  text-align: center;
+}
+
+.form-title {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  margin-bottom: .5em;
+}
+
+.form-btns {
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 1em;
+}
+
+.form-btns > button {
+  min-width: 30%;
+}
+
+.form-btns > button:not(:last-child) {
+  margin-right: 1em;
+}
+
+.activity-btn, .form-age, .form-height, .form-weight {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+.activity-btn > button {
+  width: 100%;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.calculate-btn > button {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  min-width: 20%;
+}
