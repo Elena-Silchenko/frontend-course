@@ -35,7 +35,25 @@ function App() {
   );
 }
 
+const GenderIdentity = [
+  "Male",
+  "Female"
+]
+
+const Activities = [
+  "Minimal",
+  "Low",
+  "Average",
+  "High"
+]
+
 function FormCalculator(props) {
+  const [gender, setGender] = useState("");
+  const [activity, setActivity] = useState(undefined);
+  const [age, setAge] = useState();
+  const [height, setHeight] = useState();
+  const [weight, setWeight] = useState();
+
   return (
     <>
       <Modal
@@ -55,43 +73,51 @@ function FormCalculator(props) {
               <div className="form-gender">
                 <div className="form-title">Choose your gender</div>
                 <div className="form-btns">
-                  <Button variant="outline-dark">Male</Button>
-                  <Button variant="outline-dark">Female</Button>
+                  {
+                    GenderIdentity.map(gen => (
+                      <Button variant={(gender === gen) ? "dark" : "outline-dark"} onClick={() => setGender(gen)}>
+                        {gen}
+                      </Button>
+                    ))
+                  }
                 </div>
               </div>
 
               <InputGroup className="activity-btn mb-3">
+                <Dropdown.Header>Choose your activity</Dropdown.Header>
                 <DropdownButton
                   variant="outline-dark"
-                  title="Choose your activity level"
-                  id="input-group-dropdown-1"
+                  title={activity ? activity : "Select your activity"}
                 >
-                  <Dropdown.Item href="#">Minimal</Dropdown.Item>
-                  <Dropdown.Item href="#">Low</Dropdown.Item>
-                  <Dropdown.Item href="#">Avrage</Dropdown.Item>
-                  <Dropdown.Item href="#">High</Dropdown.Item>
+                  {
+                    Activities.map(act => (
+                      <Dropdown.Item active={activity === act} onClick={() => setActivity(act)}>
+                        {act}
+                      </Dropdown.Item>
+                    ))
+                  }
                 </DropdownButton>
               </InputGroup>
 
               <Form.Group className="form-age mb-3" controlId="formBasicEmail">
                 <Form.Label>Your age</Form.Label>
-                <Form.Control type="number" placeholder="Enter age" />
+                <Form.Control type="number" placeholder="Enter age" value={age} onChange={(e) => setAge(e.target.value)} />
               </Form.Group>
-
+                
               <Form.Group className="form-height mb-3" controlId="formBasicEmail">
                 <Form.Label>Your height</Form.Label>
-                <Form.Control type="number" placeholder="Enter height in cm" />
+                <Form.Control type="number" placeholder="Enter height in cm" value={height} onChange={(e) => setHeight(e.target.value)} />
               </Form.Group>
-
+                  
               <Form.Group className="form-weight mb-3" controlId="formBasicEmail">
                 <Form.Label>Your current weight</Form.Label>
-                <Form.Control type="number" placeholder="Enter weight in kg" />
+                <Form.Control type="number" placeholder="Enter weight in kg" value={weight} onChange={(e) => setWeight(e.target.value)} />
               </Form.Group>
             </div>
           </Form>
         </Modal.Body>
         <Modal.Footer className="calculate-btn">
-          <Button variant="outline-dark" onClick={props.onHide}>
+          <Button variant="outline-dark">
             Calculate
           </Button>
         </Modal.Footer>

@@ -8,7 +8,7 @@
 }
 
 .main-container .main-title {
-  font-size: 7em;
+  font-size: 8em;
   font-weight: 300;
   color: #fff;
   margin-bottom: .5em;
@@ -36,8 +36,6 @@
 }
 
 .form-title {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
   margin-bottom: .5em;
 }
 
@@ -54,9 +52,9 @@
   margin-right: 1em;
 }
 
-.activity-btn, .form-age, .form-height, .form-weight {
+.activity-btn, .dropdown-header, .form-title, .form-age, .form-height, .form-weight {
   font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .activity-btn > button {
@@ -65,6 +63,12 @@
 
 .dropdown-menu {
   width: 100%;
+}
+
+.dropdown-header {
+  margin: auto;
+  margin-bottom: 1em !important;
+  font-size: .98em !important;
 }
 
 .calculate-btn > button {
