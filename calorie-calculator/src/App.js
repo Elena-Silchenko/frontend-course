@@ -47,17 +47,20 @@ const Activities = [
   "High"
 ]
 
-function FormCalculator(props) {
-  const [gender, setGender] = useState("");
-  const [activity, setActivity] = useState(undefined);
-  const [age, setAge] = useState();
-  const [height, setHeight] = useState();
-  const [weight, setWeight] = useState();
+function FormCalculator({ show, onHide }) {
+  const [data, setData] = useState({
+    gender: "",
+    activity: undefined,
+    age: undefined,
+    height: undefined,
+    weight: undefined,
+  });
 
   return (
     <>
       <Modal
-        {...props}
+        show={show}
+        onHide={onHide}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
@@ -75,7 +78,7 @@ function FormCalculator(props) {
                 <div className="form-btns">
                   {
                     GenderIdentity.map(gen => (
-                      <Button variant={(gender === gen) ? "dark" : "outline-dark"} onClick={() => setGender(gen)}>
+                      <Button variant={(data.gender === gen) ? "dark" : "outline-dark"} onClick={() => setData({ ...data, gender: gen })}>
                         {gen}
                       </Button>
                     ))
@@ -87,11 +90,11 @@ function FormCalculator(props) {
                 <Dropdown.Header>Choose your activity</Dropdown.Header>
                 <DropdownButton
                   variant="outline-dark"
-                  title={activity ? activity : "Select your activity"}
+                  title={data.activity ? data.activity : "Select your activity"}
                 >
                   {
                     Activities.map(act => (
-                      <Dropdown.Item active={activity === act} onClick={() => setActivity(act)}>
+                      <Dropdown.Item active={data.activity === act} onClick={() => setData({ ...data, activity: act })}>
                         {act}
                       </Dropdown.Item>
                     ))
@@ -101,17 +104,17 @@ function FormCalculator(props) {
 
               <Form.Group className="form-age mb-3" controlId="formBasicEmail">
                 <Form.Label>Your age</Form.Label>
-                <Form.Control type="number" placeholder="Enter age" value={age} onChange={(e) => setAge(e.target.value)} />
+                <Form.Control type="number" placeholder="Enter age" value={data.age} onChange={(e) => setData({ ...data, age: e.target.value })} />
               </Form.Group>
                 
               <Form.Group className="form-height mb-3" controlId="formBasicEmail">
                 <Form.Label>Your height</Form.Label>
-                <Form.Control type="number" placeholder="Enter height in cm" value={height} onChange={(e) => setHeight(e.target.value)} />
+                <Form.Control type="number" placeholder="Enter height in cm" value={data.height} onChange={(e) => setData({ ...data, height: e.target.value })} />
               </Form.Group>
                   
               <Form.Group className="form-weight mb-3" controlId="formBasicEmail">
                 <Form.Label>Your current weight</Form.Label>
-                <Form.Control type="number" placeholder="Enter weight in kg" value={weight} onChange={(e) => setWeight(e.target.value)} />
+                <Form.Control type="number" placeholder="Enter weight in kg" value={data.weight} onChange={(e) => setData({ ...data, weight: e.target.value })} />
               </Form.Group>
             </div>
           </Form>
